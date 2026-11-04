@@ -1,0 +1,18 @@
+imagem-01.png (descrição da imagem: Três crianças abraçadas)
+
+imagem-02.png (Logo da instituição)
+
+texto-01: A AACI é uma Organização Não Governamental, sem fins lucrativos, que desenvolve um Projeto que visa a proteção social básica à crianças e adolescentes através da oferta de serviços que visem o enfrentamento da vulnerabilidade social e o fortalecimento dos vínculos familiares, incentivando a socialização e a convivência comunitária, desde 2010.
+
+imagem-03.png (Senhora sorrindo)
+
+texto-02: Buscamos promover a assistência social, o desenvolvimento econômico social e combate a pobreza, o voluntariado, a paz, a cidadania, os direitos humanos e outros valores universais. Promovemos atividades lúdicas, culturais e esportivas. Realizamos ações com foco na convivência social por meio da arte, esporte e lazer, estimulando o desenvolvimento de potencialidade, habilidades e talentos, propiciando a formação cidadã do indivíduo.
+
+Defendemos os direitos das crianças e quaisquer outros indivíduos em situação de vulnerabilidade.
+
+imagem-04.png (Atividade em grupo com idosos)
+imagem-05.png (Igualdade de gênero)
+
+texto-03: É nosso compromisso a promoção da igualdade de gênero. Por isso, o Serviço de Convivência e Fortalecimento de Vínculos conta com oficinas empenhadas na geração de renda para as mulheres que fazem parte dele. Além disso, 81% da nossa equipe é composta por mulheres, o que reforça nossa preocupação constante com o tema.
+
+...
