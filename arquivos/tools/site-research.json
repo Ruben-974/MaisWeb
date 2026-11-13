@@ -1,0 +1,527 @@
+{
+  "data_verificacao": "2026-11-13",
+  "fonte_catalogo": "mapeamento site\\AACI-organizado\\08_catalogos\\acervo.json",
+  "escopo": "Pesquisa limitada ao acervo local e verifica??o HTTP p?blica de v?deos. N?o houve teste de reprodu??o no navegador.",
+  "youtube": [
+    {
+      "id": "uDHRizneRKA",
+      "titulo": "Sala de Fisioterapia da AACI é pauta no MGTV",
+      "assunto": "Fisioterapia e projeto Viver Bem Mais",
+      "pagina_recomendada": "fisioterapia.html",
+      "url": "https://www.youtube.com/watch?v=uDHRizneRKA",
+      "embed_url": "https://www.youtube.com/embed/uDHRizneRKA",
+      "thumbnail": "https://i.ytimg.com/vi/uDHRizneRKA/mqdefault.jpg",
+      "duracao": "03:07",
+      "data_catalogo": "2024-07-10T14:02:45.834Z",
+      "descricao": "A Sala de fisioterapia da AACI e o projeto Viver Bem Mais foram pauta do MGTV da manhã dessa quinta-feira!\n\nNossa Assistente Social, Polyana Carvalho da Silva conversou com a repórter Larissa Zimmermann sobre os 54 atendimentos disponibilizados de forma gratuita, para toda a comunidade, aqui na instituição.\n\nHoje a sala atende os 20 idosos presentes na Casa de Atenção à Pessoa Idosa, e está aberta ao público externo, através do encaminhamento das UBS’s.",
+      "origem": "https://www.aaci.org.br/vídeos",
+      "verificacao_oembed": {
+        "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DuDHRizneRKA&format=json",
+        "status_http": 200,
+        "content_type": "application/json",
+        "titulo_oembed": "Sala de Fisioterapia da AACI é pauta no MGTV",
+        "autor": "AACI JF",
+        "iframe_fornecido": true
+      },
+      "verificacao_embed": {
+        "url": "https://www.youtube.com/embed/uDHRizneRKA",
+        "status_http": 200,
+        "content_type": "text/html; charset=utf-8",
+        "playability_status_no_trecho": null,
+        "nota": "HTTP 200 confirma acesso ? p?gina do player; n?o comprova reprodu??o completa no navegador."
+      }
+    },
+    {
+      "id": "lWxUV477eho",
+      "titulo": "Natal de 2021 da AACI",
+      "assunto": "Campanha de Natal de 2021",
+      "pagina_recomendada": "videos.html",
+      "url": "https://www.youtube.com/watch?v=lWxUV477eho",
+      "embed_url": "https://www.youtube.com/embed/lWxUV477eho",
+      "thumbnail": "https://i.ytimg.com/vi/lWxUV477eho/mqdefault.jpg",
+      "duracao": "07:10",
+      "data_catalogo": "2022-01-08T12:59:33.107Z",
+      "descricao": "Natal de 2021 da AACI",
+      "origem": "https://www.aaci.org.br/vídeos",
+      "verificacao_oembed": {
+        "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DlWxUV477eho&format=json",
+        "status_http": 200,
+        "content_type": "application/json",
+        "titulo_oembed": "Natal de 2021 da AACI",
+        "autor": "AACI JF",
+        "iframe_fornecido": true
+      },
+      "verificacao_embed": {
+        "url": "https://www.youtube.com/embed/lWxUV477eho",
+        "status_http": 200,
+        "content_type": "text/html; charset=utf-8",
+        "playability_status_no_trecho": null,
+        "nota": "HTTP 200 confirma acesso ? p?gina do player; n?o comprova reprodu??o completa no navegador."
+      }
+    },
+    {
+      "id": "qHtH_RGf0Ro",
+      "titulo": "Idosos da AACI recebem presentes enviados pelos telespectadores da TV Integração",
+      "assunto": "Presentes e aten??o a pessoas idosas",
+      "pagina_recomendada": "pessoa-idosa.html",
+      "url": "https://www.youtube.com/watch?v=qHtH_RGf0Ro",
+      "embed_url": "https://www.youtube.com/embed/qHtH_RGf0Ro",
+      "thumbnail": "https://i.ytimg.com/vi/qHtH_RGf0Ro/mqdefault.jpg",
+      "duracao": "02:02",
+      "data_catalogo": "2021-12-18T13:44:57.388Z",
+      "descricao": "Vídeo reproduzido da TV integração.",
+      "origem": "https://www.aaci.org.br/vídeos",
+      "verificacao_oembed": {
+        "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqHtH_RGf0Ro&format=json",
+        "status_http": 200,
+        "content_type": "application/json",
+        "titulo_oembed": "Idosos da AACI recebem presentes enviados pelos telespectadores da TV Integração",
+        "autor": "AACI JF",
+        "iframe_fornecido": true
+      },
+      "verificacao_embed": {
+        "url": "https://www.youtube.com/embed/qHtH_RGf0Ro",
+        "status_http": 200,
+        "content_type": "text/html; charset=utf-8",
+        "playability_status_no_trecho": null,
+        "nota": "HTTP 200 confirma acesso ? p?gina do player; n?o comprova reprodu??o completa no navegador."
+      }
+    },
+    {
+      "id": "21nHcb3aW1Q",
+      "titulo": "Presentes doados pelos telespectadores da TV Integração são entregues em Juiz de Fora",
+      "assunto": "Entrega de presentes em Juiz de Fora",
+      "pagina_recomendada": "videos.html",
+      "url": "https://www.youtube.com/watch?v=21nHcb3aW1Q",
+      "embed_url": "https://www.youtube.com/embed/21nHcb3aW1Q",
+      "thumbnail": "https://i.ytimg.com/vi/21nHcb3aW1Q/mqdefault.jpg",
+      "duracao": "04:02",
+      "data_catalogo": "2021-12-18T11:12:15.121Z",
+      "descricao": "Reportagem reproduzida da TV integração",
+      "origem": "https://www.aaci.org.br/vídeos",
+      "verificacao_oembed": {
+        "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D21nHcb3aW1Q&format=json",
+        "status_http": 200,
+        "content_type": "application/json",
+        "titulo_oembed": "Presentes doados pelos telespectadores da TV Integração são entregues em Juiz de Fora",
+        "autor": "AACI JF",
+        "iframe_fornecido": true
+      },
+      "verificacao_embed": {
+        "url": "https://www.youtube.com/embed/21nHcb3aW1Q",
+        "status_http": 200,
+        "content_type": "text/html; charset=utf-8",
+        "playability_status_no_trecho": null,
+        "nota": "HTTP 200 confirma acesso ? p?gina do player; n?o comprova reprodu??o completa no navegador."
+      }
+    },
+    {
+      "id": "ZWRPjVnhJs0",
+      "titulo": "Assim foi nosso Natal",
+      "assunto": "Campanha de Natal e apoio ?s fam?lias",
+      "pagina_recomendada": "videos.html",
+      "url": "https://www.youtube.com/watch?v=ZWRPjVnhJs0",
+      "embed_url": "https://www.youtube.com/embed/ZWRPjVnhJs0",
+      "thumbnail": "https://i.ytimg.com/vi/ZWRPjVnhJs0/mqdefault.jpg",
+      "duracao": "01:53",
+      "data_catalogo": "2021-10-19T23:24:13.747Z",
+      "descricao": "Um momento muito gratificante para nós podermos ver a alegria nos olhos das crianças que receberam nossa ajuda!\n\nE o principal responsável por isso é você que nos ajudou a dar um Natal muito mais feliz a todas essas famílias!\n\nForam centenas de famílias apoiadas e muitos sorrisos distribuídos!\n\nGratidão eterna a vocês!\n\n#scfv #aacijf #juizdeforamg #assistênciasocial #natal #reportagem",
+      "origem": "https://www.aaci.org.br/vídeos",
+      "verificacao_oembed": {
+        "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZWRPjVnhJs0&format=json",
+        "status_http": 200,
+        "content_type": "application/json",
+        "titulo_oembed": "Assim foi nosso Natal",
+        "autor": "AACI JF",
+        "iframe_fornecido": true
+      },
+      "verificacao_embed": {
+        "url": "https://www.youtube.com/embed/ZWRPjVnhJs0",
+        "status_http": 200,
+        "content_type": "text/html; charset=utf-8",
+        "playability_status_no_trecho": null,
+        "nota": "HTTP 200 confirma acesso ? p?gina do player; n?o comprova reprodu??o completa no navegador."
+      }
+    },
+    {
+      "id": "B2m5VMVNvvg",
+      "titulo": "Reportagem dia do voluntário",
+      "assunto": "Reportagem sobre voluntariado",
+      "pagina_recomendada": "voluntariado.html",
+      "url": "https://www.youtube.com/watch?v=B2m5VMVNvvg",
+      "embed_url": "https://www.youtube.com/embed/B2m5VMVNvvg",
+      "thumbnail": "https://i.ytimg.com/vi/B2m5VMVNvvg/mqdefault.jpg",
+      "duracao": "02:49",
+      "data_catalogo": "2021-08-30T17:17:12.885Z",
+      "descricao": "Reportagem",
+      "origem": "https://www.aaci.org.br/vídeos",
+      "verificacao_oembed": {
+        "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DB2m5VMVNvvg&format=json",
+        "status_http": 200,
+        "content_type": "application/json",
+        "titulo_oembed": "Reportagem dia do voluntário",
+        "autor": "AACI JF",
+        "iframe_fornecido": true
+      },
+      "verificacao_embed": {
+        "url": "https://www.youtube.com/embed/B2m5VMVNvvg",
+        "status_http": 200,
+        "content_type": "text/html; charset=utf-8",
+        "playability_status_no_trecho": null,
+        "nota": "HTTP 200 confirma acesso ? p?gina do player; n?o comprova reprodu??o completa no navegador."
+      }
+    },
+    {
+      "id": "NBQDaKdFK5c",
+      "titulo": "Programa Comunidade, Presente! do Itaú Social | Entrega de sextas básicas",
+      "assunto": "Seguran?a alimentar e distribui??o de cestas b?sicas",
+      "pagina_recomendada": "videos.html",
+      "url": "https://www.youtube.com/watch?v=NBQDaKdFK5c",
+      "embed_url": "https://www.youtube.com/embed/NBQDaKdFK5c",
+      "thumbnail": "https://i.ytimg.com/vi/NBQDaKdFK5c/mqdefault.jpg",
+      "duracao": "00:58",
+      "data_catalogo": "2021-08-25T14:59:38.704Z",
+      "descricao": "No mês de agosto foram distribuídas 553 cestas básicas adquiridas através do Programa Comunidade, Presente! do Itaú Social. Mais de 1600 pessoas foram  beneficiadas com está ação, entre elas crianças, adolescentes, idosos, pessoas com deficiência, de comunidades tradicionais. As entregas foram coordenadas pelo Serviço Social da instituição, mas toda a equipe participou nesta missão. Fora dias de muito trabalho, compensados com muitos sorrisos de agradecimento.\n\naaci.org.br",
+      "origem": "https://www.aaci.org.br/vídeos",
+      "verificacao_oembed": {
+        "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNBQDaKdFK5c&format=json",
+        "status_http": 200,
+        "content_type": "application/json",
+        "titulo_oembed": "Programa Comunidade, Presente! do Itaú Social | Entrega de sextas básicas",
+        "autor": "AACI JF",
+        "iframe_fornecido": true
+      },
+      "verificacao_embed": {
+        "url": "https://www.youtube.com/embed/NBQDaKdFK5c",
+        "status_http": 200,
+        "content_type": "text/html; charset=utf-8",
+        "playability_status_no_trecho": null,
+        "nota": "HTTP 200 confirma acesso ? p?gina do player; n?o comprova reprodu??o completa no navegador."
+      }
+    }
+  ],
+  "wix_galeria": [
+    {
+      "id": "c696b8_f27206036f42420582bd66b91e9818ca",
+      "titulo": "Natal Solidário AACI 2024",
+      "duracao": "02:46",
+      "data_catalogo": "2025-02-14T11:57:52.679Z",
+      "descricao": "✨Nossa campanha de Natal de 2024 teve um lindo encerramento! Foram mais de 1200 pessoas contempladas, entre doações de cestas básicas e brinquedos. E tudo isso só foi possível graças à sua colaboração com a nossa causa!\n\n💝Para que esse momento especial acontecesse, contamos com o apoio de inúmeras organizações e pessoas físicas. Essa atitude só nos deixa claro o quão importante é o trabalho que realizamos!\n\n🫂Agradecemos todo o carinho das organizações, que mediaram essa campanha, e a cada pessoa que demonstrou disponibilidade em nos ajudar nesse momento tão especial!",
+      "thumbnail": "https://static.wixstatic.com/media/c696b8_f27206036f42420582bd66b91e9818caf002.jpg/v1/fill/w_330,h_330,enc_auto/file.jpeg",
+      "pagina_oficial": "https://www.aaci.org.br/v%C3%ADdeos",
+      "origem_html": "07_tecnico/html-fontes/ARQ-0947--videos.html",
+      "url_mp4_candidata": "https://video.wixstatic.com/video/c696b8_f27206036f42420582bd66b91e9818ca/480p/mp4/file.mp4",
+      "url_mp4_literal_no_html": false,
+      "nota_origem": "HTML cont?m HLS tokenizado; candidato MP4 deduzido apenas do identificador e da resolu??o publicada. N?o reutilizar tokens capturados.",
+      "verificacao_mp4": {
+        "url": "https://video.wixstatic.com/video/c696b8_f27206036f42420582bd66b91e9818ca/480p/mp4/file.mp4",
+        "status_http": 403,
+        "content_type": "text/plain",
+        "nota": "Sem tentativa de contornar bloqueio."
+      }
+    },
+    {
+      "id": "c696b8_96be3119c27b41f5866165c1b1c62fd9",
+      "titulo": "Fernanda Torres",
+      "duracao": "00:33",
+      "data_catalogo": "2025-01-28T17:01:44.286Z",
+      "descricao": "Fernanda Torres",
+      "thumbnail": "https://static.wixstatic.com/media/c696b8_96be3119c27b41f5866165c1b1c62fd9f002.jpg/v1/fill/w_330,h_330,enc_auto/file.jpeg",
+      "pagina_oficial": "https://www.aaci.org.br/v%C3%ADdeos",
+      "origem_html": "07_tecnico/html-fontes/ARQ-0947--videos.html",
+      "url_mp4_candidata": "https://video.wixstatic.com/video/c696b8_96be3119c27b41f5866165c1b1c62fd9/1080p/mp4/file.mp4",
+      "url_mp4_literal_no_html": false,
+      "nota_origem": "HTML cont?m HLS tokenizado; candidato MP4 deduzido apenas do identificador e da resolu??o publicada. N?o reutilizar tokens capturados.",
+      "verificacao_mp4": {
+        "url": "https://video.wixstatic.com/video/c696b8_96be3119c27b41f5866165c1b1c62fd9/1080p/mp4/file.mp4",
+        "status_http": 403,
+        "content_type": "text/plain",
+        "nota": "Sem tentativa de contornar bloqueio."
+      }
+    },
+    {
+      "id": "5d1de8_45a5ab3740cd4af9a4309b54d25cbf70",
+      "titulo": "AACI_INST_OUT_2023_V01c",
+      "duracao": "05:36",
+      "data_catalogo": "2023-11-06T20:25:23.446Z",
+      "descricao": "AACI_INST_OUT_2023_V01c",
+      "thumbnail": "https://static.wixstatic.com/media/5d1de8_45a5ab3740cd4af9a4309b54d25cbf70f002.jpg/v1/fill/w_330,h_330,enc_auto/file.jpeg",
+      "pagina_oficial": "https://www.aaci.org.br/v%C3%ADdeos",
+      "origem_html": "07_tecnico/html-fontes/ARQ-0947--videos.html",
+      "url_mp4_candidata": "https://video.wixstatic.com/video/5d1de8_45a5ab3740cd4af9a4309b54d25cbf70/1080p/mp4/file.mp4",
+      "url_mp4_literal_no_html": false,
+      "nota_origem": "HTML cont?m HLS tokenizado; candidato MP4 deduzido apenas do identificador e da resolu??o publicada. N?o reutilizar tokens capturados.",
+      "verificacao_mp4": {
+        "url": "https://video.wixstatic.com/video/5d1de8_45a5ab3740cd4af9a4309b54d25cbf70/1080p/mp4/file.mp4",
+        "status_http": 403,
+        "content_type": "text/plain",
+        "nota": "Sem tentativa de contornar bloqueio."
+      }
+    },
+    {
+      "id": "5d1de8_5fd68d666c1a46d9872dbf2ca2282386",
+      "titulo": "TV Integração",
+      "duracao": "04:44",
+      "data_catalogo": "2023-11-06T20:25:23.446Z",
+      "descricao": "TV Integração",
+      "thumbnail": "https://static.wixstatic.com/media/5d1de8_5fd68d666c1a46d9872dbf2ca2282386f002.jpg/v1/fill/w_330,h_330,enc_auto/file.jpeg",
+      "pagina_oficial": "https://www.aaci.org.br/v%C3%ADdeos",
+      "origem_html": "07_tecnico/html-fontes/ARQ-0947--videos.html",
+      "url_mp4_candidata": "https://video.wixstatic.com/video/5d1de8_5fd68d666c1a46d9872dbf2ca2282386/1080p/mp4/file.mp4",
+      "url_mp4_literal_no_html": false,
+      "nota_origem": "HTML cont?m HLS tokenizado; candidato MP4 deduzido apenas do identificador e da resolu??o publicada. N?o reutilizar tokens capturados.",
+      "verificacao_mp4": {
+        "url": "https://video.wixstatic.com/video/5d1de8_5fd68d666c1a46d9872dbf2ca2282386/1080p/mp4/file.mp4",
+        "status_http": 403,
+        "content_type": "text/plain",
+        "nota": "Sem tentativa de contornar bloqueio."
+      }
+    },
+    {
+      "id": "5d1de8_ba1ff817ea5b4e00b51be2baf5fb4f4e",
+      "titulo": "NATAL NA AACI 2022",
+      "duracao": "01:43",
+      "data_catalogo": "2023-11-06T20:25:23.446Z",
+      "descricao": "NATAL NA AACI 2022",
+      "thumbnail": "https://static.wixstatic.com/media/5d1de8_ba1ff817ea5b4e00b51be2baf5fb4f4ef001.jpg/v1/fill/w_330,h_330,enc_auto/file.jpeg",
+      "pagina_oficial": "https://www.aaci.org.br/v%C3%ADdeos",
+      "origem_html": "07_tecnico/html-fontes/ARQ-0947--videos.html",
+      "url_mp4_candidata": "https://video.wixstatic.com/video/5d1de8_ba1ff817ea5b4e00b51be2baf5fb4f4e/1080p/mp4/file.mp4",
+      "url_mp4_literal_no_html": false,
+      "nota_origem": "HTML cont?m HLS tokenizado; candidato MP4 deduzido apenas do identificador e da resolu??o publicada. N?o reutilizar tokens capturados.",
+      "verificacao_mp4": {
+        "url": "https://video.wixstatic.com/video/5d1de8_ba1ff817ea5b4e00b51be2baf5fb4f4e/1080p/mp4/file.mp4",
+        "status_http": 403,
+        "content_type": "text/plain",
+        "nota": "Sem tentativa de contornar bloqueio."
+      }
+    }
+  ],
+  "noticias": [
+    {
+      "id": "PAG-025",
+      "titulo": "Cozinha Comunitária",
+      "url": "https://www.aaci.org.br/post/cozinha-comunitária",
+      "datePublished": "2026-07-27T18:13:38.515Z",
+      "dateModified": "2026-07-27T18:13:38.515Z",
+      "data_exibida_original": "27 de jul.",
+      "corpo_paragrafos": [
+        "Hoje foi um dia muito especial para nossa equipe!",
+        "Estivemos em Muriaé visitando as cozinhas comunitárias e participando desse importante momento de fortalecimento das ações de combate à insegurança alimentar.",
+        "Com muita alegria, compartilhamos que fomos contemplados no chamamento público e conquistamos a gestão das três cozinhas comunitárias do município.",
+        "Recebemos essa responsabilidade com gratidão e compromisso. Nosso objetivo é trabalhar com dedicação, transparência e respeito, garantindo refeições de qualidade e acolhimento para quem mais precisa.",
+        "Agradecemos a confiança depositada em nosso trabalho e reafirmamos nosso propósito de transformar vidas por meio da solidariedade e da segurança alimentar.",
+        "Seguimos em frente, prontos para fazer a diferença!"
+      ],
+      "corpo_texto": "Hoje foi um dia muito especial para nossa equipe!\n\nEstivemos em Muriaé visitando as cozinhas comunitárias e participando desse importante momento de fortalecimento das ações de combate à insegurança alimentar.\n\nCom muita alegria, compartilhamos que fomos contemplados no chamamento público e conquistamos a gestão das três cozinhas comunitárias do município.\n\nRecebemos essa responsabilidade com gratidão e compromisso. Nosso objetivo é trabalhar com dedicação, transparência e respeito, garantindo refeições de qualidade e acolhimento para quem mais precisa.\n\nAgradecemos a confiança depositada em nosso trabalho e reafirmamos nosso propósito de transformar vidas por meio da solidariedade e da segurança alimentar.\n\nSeguimos em frente, prontos para fazer a diferença!",
+      "midia": {
+        "tipo": "video_local",
+        "source_url": "https://video.wixstatic.com/video/c696b8_026f60f860054403873ad2329a506ade/1080p/mp4/file.mp4",
+        "arquivo": "mapeamento site\\AACI-organizado\\04_videos\\locais\\VID-001--cozinha-comunitaria.mp4",
+        "poster": "mapeamento site\\AACI-organizado\\09_previsualizacoes\\videos\\VID-001--quadro-1.jpg",
+        "asset_id": "VID-001"
+      },
+      "fonte_html": "mapeamento site\\AACI-organizado\\07_tecnico\\html-fontes\\ARQ-0918--cozinha-comunitaria.html",
+      "nota": "Ano obtido do JSON-LD original, n?o inferido da data abreviada. Corpo sem menus, tempo de leitura ou sugest?es de posts."
+    },
+    {
+      "id": "PAG-028",
+      "titulo": "Entrega dos Móveis",
+      "url": "https://www.aaci.org.br/post/entrega-dos-móveis",
+      "datePublished": "2026-07-27T15:59:41.988Z",
+      "dateModified": "2026-07-27T15:59:41.988Z",
+      "data_exibida_original": "27 de jul.",
+      "corpo_paragrafos": [
+        "A solidariedade fez a diferença na vida de diversas famílias que perderam seus móveis durante as enchentes. Por meio da parceria com a Ação Cidadania, foi realizada a entrega de móveis essenciais, proporcionando mais conforto, dignidade e a oportunidade de recomeçar.",
+        "A iniciativa reforça a importância da união entre instituições, parceiros e a comunidade para apoiar quem mais precisa em momentos de dificuldade. Mais do que a entrega de móveis, essa ação representa esperança, acolhimento e a reconstrução de lares que foram afetados pelas fortes chuvas.",
+        "Agradecemos à Ação Cidadania pela parceria e a todos que contribuíram para tornar esse momento possível. Juntos, seguimos transformando solidariedade em ações concretas e ajudando famílias a reconstruírem suas histórias."
+      ],
+      "corpo_texto": "A solidariedade fez a diferença na vida de diversas famílias que perderam seus móveis durante as enchentes. Por meio da parceria com a Ação Cidadania, foi realizada a entrega de móveis essenciais, proporcionando mais conforto, dignidade e a oportunidade de recomeçar.\n\nA iniciativa reforça a importância da união entre instituições, parceiros e a comunidade para apoiar quem mais precisa em momentos de dificuldade. Mais do que a entrega de móveis, essa ação representa esperança, acolhimento e a reconstrução de lares que foram afetados pelas fortes chuvas.\n\nAgradecemos à Ação Cidadania pela parceria e a todos que contribuíram para tornar esse momento possível. Juntos, seguimos transformando solidariedade em ações concretas e ajudando famílias a reconstruírem suas histórias.",
+      "midia": {
+        "tipo": "video_local",
+        "source_url": "https://video.wixstatic.com/video/c696b8_43f43fc10df94ababbd1eb4373d7945e/1080p/mp4/file.mp4",
+        "arquivo": "mapeamento site\\AACI-organizado\\04_videos\\locais\\VID-002--entrega-dos-moveis.mp4",
+        "poster": "mapeamento site\\AACI-organizado\\09_previsualizacoes\\videos\\VID-002--quadro-1.jpg",
+        "asset_id": "VID-002"
+      },
+      "fonte_html": "mapeamento site\\AACI-organizado\\07_tecnico\\html-fontes\\ARQ-0921--entrega-dos-moveis.html",
+      "nota": "Ano obtido do JSON-LD original, n?o inferido da data abreviada. Corpo sem menus, tempo de leitura ou sugest?es de posts."
+    },
+    {
+      "id": "PAG-026",
+      "titulo": "Doe e transforme vidas!",
+      "url": "https://www.aaci.org.br/post/doe-e-transforme-vidas",
+      "datePublished": "2026-05-26T16:03:12.596Z",
+      "dateModified": "2026-05-26T16:03:12.596Z",
+      "data_exibida_original": "26 de mai",
+      "corpo_paragrafos": [
+        "A AACI trabalha diariamente para garantir cuidado, acolhimento e segurança alimentar para crianças e famílias em situação de vulnerabilidade. 💛",
+        "Muitas crianças dependem da nossa ajuda para terem uma alimentação digna, carinho, proteção e oportunidades. E é através da solidariedade de pessoas como você que conseguimos continuar esse trabalho tão importante.",
+        "🙏 Doe qualquer valor pelo Pix:",
+        "CNPJ: 11.550.709/0001-87",
+        "Cada contribuição ajuda a colocar alimento na mesa, levar cuidado, esperança e garantir que nenhuma criança fique sem assistência.",
+        "Junte-se a nós nessa corrente do bem. Compartilhe, doe e faça parte dessa transformação! 🌟"
+      ],
+      "corpo_texto": "A AACI trabalha diariamente para garantir cuidado, acolhimento e segurança alimentar para crianças e famílias em situação de vulnerabilidade. 💛\n\nMuitas crianças dependem da nossa ajuda para terem uma alimentação digna, carinho, proteção e oportunidades. E é através da solidariedade de pessoas como você que conseguimos continuar esse trabalho tão importante.\n\n🙏 Doe qualquer valor pelo Pix:\n\nCNPJ: 11.550.709/0001-87\n\nCada contribuição ajuda a colocar alimento na mesa, levar cuidado, esperança e garantir que nenhuma criança fique sem assistência.\n\nJunte-se a nós nessa corrente do bem. Compartilhe, doe e faça parte dessa transformação! 🌟",
+      "midia": {
+        "tipo": "video_local",
+        "source_url": "https://video.wixstatic.com/video/c696b8_effc98bbe8fb45f493dd18a699d1cef9/480p/mp4/file.mp4",
+        "arquivo": "mapeamento site\\AACI-organizado\\04_videos\\locais\\VID-004--doe-e-transforme-vidas.mp4",
+        "poster": "mapeamento site\\AACI-organizado\\09_previsualizacoes\\videos\\VID-004--quadro-1.jpg",
+        "asset_id": "VID-004"
+      },
+      "fonte_html": "mapeamento site\\AACI-organizado\\07_tecnico\\html-fontes\\ARQ-0919--doe-e-transforme-vidas.html",
+      "nota": "Ano obtido do JSON-LD original, n?o inferido da data abreviada. Corpo sem menus, tempo de leitura ou sugest?es de posts."
+    },
+    {
+      "id": "PAG-027",
+      "titulo": "Ela tem uma mensagem importante para você.",
+      "url": "https://www.aaci.org.br/post/ela-tem-uma-mensagem-importante-para-você",
+      "datePublished": "2026-05-20T15:08:12.565Z",
+      "dateModified": "2026-05-20T15:08:12.565Z",
+      "data_exibida_original": "20 de mai.",
+      "corpo_paragrafos": [],
+      "corpo_texto": "",
+      "midia": {
+        "tipo": "video_local",
+        "source_url": "https://video.wixstatic.com/video/c696b8_c1f9ed035fe342f18265b365be3fabe0/480p/mp4/file.mp4",
+        "arquivo": "mapeamento site\\AACI-organizado\\04_videos\\locais\\VID-003--ela-tem-uma-mensagem-importante-para-voce.mp4",
+        "poster": "mapeamento site\\AACI-organizado\\09_previsualizacoes\\videos\\VID-003--quadro-1.jpg",
+        "asset_id": "VID-003"
+      },
+      "fonte_html": "mapeamento site\\AACI-organizado\\07_tecnico\\html-fontes\\ARQ-0920--ela-tem-uma-mensagem-importante-para-voce.html",
+      "nota": "Ano obtido do JSON-LD original, n?o inferido da data abreviada. Corpo sem menus, tempo de leitura ou sugest?es de posts."
+    },
+    {
+      "id": "PAG-031",
+      "titulo": "Sala de Fisioterapia da AACI é pauta no MGTV",
+      "url": "https://www.aaci.org.br/post/sala-de-fisioterapia-da-aaci-é-pauta-no-mgtv",
+      "datePublished": "2024-07-04T19:26:12.993Z",
+      "dateModified": "2024-07-10T14:00:45.908Z",
+      "data_exibida_original": "4 de jul. de 2024",
+      "corpo_paragrafos": [
+        "A Sala de fisioterapia da AACI e o projeto Viver Bem Mais foram pauta do MGTV da manhã dessa quinta-feira! Nossa Assistente Social, Polyana Carvalho da Silva conversou com a repórter Larissa Zimmermann sobre os 54 atendimentos disponibilizados de forma gratuita, para toda a comunidade, aqui na instituição. Hoje a sala atende os 20 idosos presentes na Casa de Atenção à Pessoa Idosa, e está aberta ao público externo, através do encaminhamento das UBS’s."
+      ],
+      "corpo_texto": "A Sala de fisioterapia da AACI e o projeto Viver Bem Mais foram pauta do MGTV da manhã dessa quinta-feira! Nossa Assistente Social, Polyana Carvalho da Silva conversou com a repórter Larissa Zimmermann sobre os 54 atendimentos disponibilizados de forma gratuita, para toda a comunidade, aqui na instituição. Hoje a sala atende os 20 idosos presentes na Casa de Atenção à Pessoa Idosa, e está aberta ao público externo, através do encaminhamento das UBS’s.",
+      "midia": {
+        "tipo": "youtube",
+        "id": "uDHRizneRKA",
+        "source_url": "https://www.youtube.com/watch?v=uDHRizneRKA",
+        "imagem": "https://i.ytimg.com/vi/uDHRizneRKA/maxresdefault.jpg"
+      },
+      "fonte_html": "mapeamento site\\AACI-organizado\\07_tecnico\\html-fontes\\ARQ-0925--sala-de-fisioterapia-da-aaci-e-pauta-no-mgtv.html",
+      "nota": "Ano obtido do JSON-LD original, n?o inferido da data abreviada. Corpo sem menus, tempo de leitura ou sugest?es de posts."
+    }
+  ],
+  "contatos_por_contexto": [
+    {
+      "contexto": "Institucional: rodap? geral",
+      "fontes": [
+        "https://www.aaci.org.br/"
+      ],
+      "endereco": "Rua Doutor Dias da Cruz, 487, Nova Era, Juiz de Fora - MG",
+      "telefones": [
+        {
+          "rotulo": "Social",
+          "valor": "(32) 98476-7527"
+        }
+      ],
+      "emails": [
+        "aaci-@hotmail.com"
+      ],
+      "prioridade": "Usar no rodap? geral; ? o dado exibido na p?gina inicial capturada."
+    },
+    {
+      "contexto": "Doa??es e voluntariado",
+      "fontes": [
+        "https://www.aaci.org.br/comoajudar",
+        "https://www.aaci.org.br/seja-volunt?rio"
+      ],
+      "endereco": "Rua Guimar?es J?nior, 90, Nova Era, Juiz de Fora - MG",
+      "telefones": [
+        {
+          "rotulo": "Social",
+          "valor": "(32) 3226-4832"
+        },
+        {
+          "rotulo": "WhatsApp de doa??es",
+          "valor": "(32) 98855-9201",
+          "url": "https://wa.me/5532988559201"
+        }
+      ],
+      "emails": [
+        "aacisocial@hotmail.com",
+        "aaci-@hotmail.com"
+      ],
+      "nota": "Endere?o e telefone social divergem da homepage. Conservar associa??o ? fonte; WhatsApp ? confirmado pela p?gina de doa??es."
+    },
+    {
+      "contexto": "Contato e subp?gina Quem Somos",
+      "fontes": [
+        "https://www.aaci.org.br/contato",
+        "https://www.aaci.org.br/quem-somos"
+      ],
+      "endereco": "Rua Guimar?es J?nior, 90, Nova Era, Juiz de Fora - MG",
+      "telefones": [
+        {
+          "rotulo": "Social",
+          "valor": "(32) 3226-4832"
+        },
+        {
+          "rotulo": "WhatsApp",
+          "valor": "(32) 98855-9201"
+        }
+      ],
+      "emails": [
+        "aaci-@hotmail.com",
+        "projetosaaci@hotmail.com"
+      ],
+      "nota": "Emails s?o da p?gina de contato. N?o tratar estes dados divergentes como substitui??o da homepage."
+    },
+    {
+      "contexto": "Programa Apadrinhamento Afetivo",
+      "fontes": [
+        "https://www.aaci.org.br/apadrinhamento4"
+      ],
+      "endereco": "Rua General Almerindo da Silva Gomes, 133, Nova Era, Juiz de Fora",
+      "telefones": [
+        {
+          "valor": "(32) 3211-5475"
+        },
+        {
+          "valor": "(32) 98889-0665"
+        }
+      ],
+      "emails": [
+        "apadrinhamento@aaci.org.br"
+      ],
+      "fonte_imagem": "IMG-0392",
+      "metodo": "Texto da imagem do programa conferido visualmente no acervo; OCR bruto confunde separador ap?s5475 com1."
+    },
+    {
+      "contexto": "Servi?o de Conviv?ncia e Fortalecimento de V?nculos",
+      "fontes": [
+        "https://www.aaci.org.br/servicodeconvivencia3"
+      ],
+      "endereco": "Rua General Almerindo da Silva Gomes, 162, Nova Era, Juiz de Fora",
+      "telefones": [
+        {
+          "valor": "(32) 3226-4832"
+        },
+        {
+          "valor": "(32) 98855-9201"
+        }
+      ],
+      "emails": [
+        "aacisocial@hotmail.com"
+      ],
+      "fonte_imagem": "IMG-0538",
+      "metodo": "Texto da imagem Contatos.png do programa no acervo."
+    }
+  ],
+  "notas": [
+    "HTTP200 no embed n?o garante que o propriet?rio permita reprodu??o ou que o cliente consiga tocar a m?dia; manter link Abrir no YouTube.",
+    "N?o reutilizar URLs HLS assinadas/tokenizadas do espelho. Se MP4 retorna403, n?o tentar contornar.",
+    "Os4 MP4 das not?cias j? constam do acervo local; n?o confundir com os5 itens Wix da galeria."
+  ]
+}

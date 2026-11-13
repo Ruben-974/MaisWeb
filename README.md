@@ -19,3 +19,11 @@ Acesse **http://127.0.0.1:5500**. Para hospedar, envie somente o conteúdo de `A
 ## Manutenção
 
 As páginas já estão prontas; não precisam de instalação ou build para funcionar. As instruções para editar, regenerar e validar estão em [`arquivos/README.md`](arquivos/README.md). A documentação completa está em [`arquivos/DOCUMENTACAO.md`](arquivos/DOCUMENTACAO.md).
+
+## O que vai para o GitHub
+
+O `.gitignore` prioriza HTML, CSS, JavaScript, ferramentas, templates, configurações JSON e documentação. Cópias de mídia, PDFs, acervo HTTrack, relatórios gerados e temporários ficam no computador.
+
+As únicas imagens mantidas no Git são `AACI/assets/hero.webp` e `AACI/assets/favicon.png`, cerca de 220 KB no total: elas ainda não têm uma fonte externa e preservam a apresentação da página. As demais mídias usam os links públicos configurados; suas cópias locais são opcionais no repositório. Para disponibilizar também os botões de download local em uma hospedagem, envie essas cópias separadamente.
+
+O gerador usa os pequenos arquivos de `arquivos/dados/` e os templates de `arquivos/tools/`; não precisa do espelho HTTrack para regenerar as páginas. Os arquivos já enviados em commits anteriores continuam no histórico. As regras de exclusão passam a valer nos próximos commits.

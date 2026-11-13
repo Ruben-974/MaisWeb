@@ -1,0 +1,499 @@
+{
+  "generated_on": "2026-11-13",
+  "source_catalog": "mapeamento site/AACI-organizado/08_catalogos/acervo.json",
+  "documentos": [
+    {
+      "id": "DOC-001",
+      "source_id": "DOC-001",
+      "titulo": "Termo de Colaboração nº 05.2021.121 - Programa Apadrinhamento Afetivo",
+      "title": "Termo de Colaboração nº 05.2021.121 - Programa Apadrinhamento Afetivo",
+      "path": "assets/documents/termo-2021-apadrinhamento-afetivo.pdf",
+      "year": 2021,
+      "year_label": "2021",
+      "years": [
+        2021
+      ],
+      "grupo": "prestacao-de-contas",
+      "paginas": 15,
+      "bytes": 5307741,
+      "sha256": "61f52c9f241b33b5c82e4bc70e87bd67ed17f06e73180675fd18d01a4f076391",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_a9ca6a5590634e4f8a613fffc05bdc74.pdf",
+      "contexto": "Anexos e demonstrativos de prestação de contas da parceria de Apadrinhamento Afetivo. Inclui receitas, despesas e documentos de suporte.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/prestacao-de-contas/DOC-001--05-2021-121-apadrinhamento-afetivo-2-1.pdf"
+    },
+    {
+      "id": "DOC-002",
+      "source_id": "DOC-002",
+      "titulo": "Termo de Colaboração nº 05.2022.046 - Espaço de Cuidados para Pessoa Idosa",
+      "title": "Termo de Colaboração nº 05.2022.046 - Espaço de Cuidados para Pessoa Idosa",
+      "path": "assets/documents/termo-2022-cuidados-pessoa-idosa.pdf",
+      "year": 2022,
+      "year_label": "2022",
+      "years": [
+        2022
+      ],
+      "grupo": "prestacao-de-contas",
+      "paginas": 19,
+      "bytes": 5616644,
+      "sha256": "38a7ed4049d1a30bafe2cab19f68332a397ab6acffdfbb4d12f4bcff460dbbfc",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_b99b54dba8a84690a72c5d0a3b4022de.pdf",
+      "contexto": "Prestação de contas do Espaço de Cuidados para Pessoa Idosa, com demonstrativos financeiros e anexos.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/prestacao-de-contas/DOC-002--05-2022-046-espaco-de-cuidados.pdf"
+    },
+    {
+      "id": "DOC-003",
+      "source_id": "DOC-003",
+      "titulo": "Termo de Colaboração nº 05.2022.047 - Serviço de Acolhimento Institucional para Adultos, na modalidade Casa de Passagem",
+      "title": "Termo de Colaboração nº 05.2022.047 - Serviço de Acolhimento Institucional para Adultos, na modalidade Casa de Passagem",
+      "path": "assets/documents/termo-2022-acolhimento-benfica.pdf",
+      "year": 2022,
+      "year_label": "2022",
+      "years": [
+        2022
+      ],
+      "grupo": "prestacao-de-contas",
+      "paginas": 15,
+      "bytes": 5605773,
+      "sha256": "a7d62dcb657a93f16c61a342aa9a3f488b9710c567fb0e7688af3abb9767efd1",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_0d40f6e04d3c404e8d66bb5b65e62625.pdf",
+      "contexto": "Documentação financeira da parceria de acolhimento em Casa de Passagem, vinculada ao termo 05.2022.047.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/prestacao-de-contas/DOC-003--05-2022-047-acolhimento-benfica.pdf"
+    },
+    {
+      "id": "DOC-004",
+      "source_id": "DOC-004",
+      "titulo": "Termo de Colaboração nº 05.2022.048 - Serviço de Acolhimento Institucional, na modalidade Casa de Passagem - em caráter emergencial e temporário",
+      "title": "Termo de Colaboração nº 05.2022.048 - Serviço de Acolhimento Institucional, na modalidade Casa de Passagem - em caráter emergencial e temporário",
+      "path": "assets/documents/termo-2022-acolhimento-emergencial-centro.pdf",
+      "year": 2022,
+      "year_label": "2022",
+      "years": [
+        2022
+      ],
+      "grupo": "prestacao-de-contas",
+      "paginas": 7,
+      "bytes": 2549426,
+      "sha256": "c40e1ab746651066b8153fc1a2b8647d232de1377f3fbe4ba9fb18e930ee3afb",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_8f22726677b3446082f84197961bc551.pdf",
+      "contexto": "Prestação de contas do acolhimento emergencial e temporário do Centro, termo 05.2022.048.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/prestacao-de-contas/DOC-004--05-2022-048-acolhimento-emergencial-centro.pdf"
+    },
+    {
+      "id": "DOC-005",
+      "source_id": "DOC-005",
+      "titulo": "Termo de Colaboração nº 05.2023.186 - Cozinha Comunitária",
+      "title": "Termo de Colaboração nº 05.2023.186 - Cozinha Comunitária",
+      "path": "assets/documents/termo-2023-cozinha-comunitaria.pdf",
+      "year": 2023,
+      "year_label": "2023",
+      "years": [
+        2023
+      ],
+      "grupo": "prestacao-de-contas",
+      "paginas": 4,
+      "bytes": 739536,
+      "sha256": "cd8638c1515b7ef79d35b6767c6cf8d8ece15774a8a9ed7c2069aa5a21242038",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_e347a003332e42dc9d2bb5967b90cdce.pdf",
+      "contexto": "Demonstrativos e anexos referentes à Cozinha Comunitária, termo 05.2023.186.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/prestacao-de-contas/DOC-005--05-2023-186-cozinha-comunitaria.pdf"
+    },
+    {
+      "id": "DOC-006",
+      "source_id": "DOC-006",
+      "titulo": "Termo de Colaboração nº 05.2023.198 - Serviço de Acolhimento Institucional, modalidade Casa de Passagem – 16 horas de atendimento, com 50 vagas para adultos do sexo masculino e feminino em situação de rua.",
+      "title": "Termo de Colaboração nº 05.2023.198 - Serviço de Acolhimento Institucional, modalidade Casa de Passagem – 16 horas de atendimento, com 50 vagas para adultos do sexo masculino e feminino em situação de rua.",
+      "path": "assets/documents/termo-2023-acolhimento-norte.pdf",
+      "year": 2023,
+      "year_label": "2023",
+      "years": [
+        2023
+      ],
+      "grupo": "prestacao-de-contas",
+      "paginas": 6,
+      "bytes": 1177573,
+      "sha256": "b5ac7b557edb7b1dadd6cfbfc71ebda9f4edf6f5b45fce91ea9268c9eb88edd8",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_8df1a8ad505841ca962040abb8620559.pdf",
+      "contexto": "Prestação de contas do acolhimento Norte, termo 05.2023.198. O rótulo do site menciona atendimento por 16 horas e 50 vagas.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/prestacao-de-contas/DOC-006--05-2023-198-acolhimento-norte.pdf"
+    },
+    {
+      "id": "DOC-007",
+      "source_id": "DOC-007",
+      "titulo": "Termo de Fomento nº 06.2023.005 - Direito à vida e à saúde",
+      "title": "Termo de Fomento nº 06.2023.005 - Direito à vida e à saúde",
+      "path": "assets/documents/termo-2023-direito-vida-saude.pdf",
+      "year": 2023,
+      "year_label": "2023",
+      "years": [
+        2023
+      ],
+      "grupo": "prestacao-de-contas",
+      "paginas": 8,
+      "bytes": 1967618,
+      "sha256": "c52671f4411db6ffd3b2cad4bd8815185cdacb0e6afba654aa022cee77f93b48",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_9cd9ce7115814e348084100d548cb823.pdf",
+      "contexto": "Demonstrativos da parceria de Direito à Vida e à Saúde, termo de fomento 06.2023.005.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/prestacao-de-contas/DOC-007--06-2023-005-cmdca.pdf"
+    },
+    {
+      "id": "DOC-008",
+      "source_id": "DOC-008",
+      "titulo": "Termo de Colaboração nº 0627/24 - Serviço de Convivência e Fortalecimento de Vínculos",
+      "title": "Termo de Colaboração nº 0627/24 - Serviço de Convivência e Fortalecimento de Vínculos",
+      "path": "assets/documents/termo-2024-convivencia-vinculos.pdf",
+      "year": 2024,
+      "year_label": "2024",
+      "years": [
+        2024
+      ],
+      "grupo": "prestacao-de-contas",
+      "paginas": 7,
+      "bytes": 2057353,
+      "sha256": "c85e35b486c0fada67f90bcd0bbcf67c96312e4c7ef55a2f1ba07cf5fa530b82",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_b366a80af1f04a7d967b982505fa5c5e.pdf",
+      "contexto": "Digitalizações de demonstrativos de receitas e despesas do SCFV, termo 0627/24; a maior parte demandou OCR.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/prestacao-de-contas/DOC-008--0627-24-scfv.pdf"
+    },
+    {
+      "id": "DOC-009",
+      "source_id": "DOC-009",
+      "titulo": "Ata Assembleia Geral - 17/09/2025",
+      "title": "Ata Assembleia Geral - 17/09/2025",
+      "path": "assets/documents/ata-assembleia-2025-09-17.pdf",
+      "year": 2025,
+      "year_label": "2025",
+      "years": [
+        2025
+      ],
+      "grupo": "governanca",
+      "paginas": 6,
+      "bytes": 4276270,
+      "sha256": "c241278a3170072424f2fe82fdcafa7e41f3d0142d7cd4ecd0692cf65fa230ee",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_43b0ae1a76f24efeb85830d1a0e2b9a8.pdf",
+      "contexto": "Ata da Assembleia Geral Extraordinária de 17/09/2025, com deliberações, assinaturas e registros.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/governanca/DOC-009--ata-assembleia-17-09-2025.pdf"
+    },
+    {
+      "id": "DOC-010",
+      "source_id": "DOC-010",
+      "titulo": "Comprovante de viagem do caminhão com doações ao Rio Grande do Sul - 15/05/24",
+      "title": "Comprovante de viagem do caminhão com doações ao Rio Grande do Sul - 15/05/24",
+      "path": "assets/documents/comprovante-viagem-doacoes-rs-2024.pdf",
+      "year": 2024,
+      "year_label": "2024",
+      "years": [
+        2024
+      ],
+      "grupo": "campanhas",
+      "paginas": 2,
+      "bytes": 2575397,
+      "sha256": "55212b564b1d5e52f61f8cbc421a1482782d2de99ce6009d66e586b3199d7246",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_2e819aa8ba7640d19e70e80911d76044.pdf",
+      "contexto": "Comprovante referente à viagem de 15/05/2024 para entrega de doações ao Rio Grande do Sul, com declarações e recibos.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/campanhas/DOC-010--comprovante-de-viagem-pdf.pdf"
+    },
+    {
+      "id": "DOC-011",
+      "source_id": "DOC-011",
+      "titulo": "Dados Acolhimento Emergencial 2022",
+      "title": "Dados Acolhimento Emergencial 2022",
+      "path": "assets/documents/dados-acolhimento-emergencial-2022.pdf",
+      "year": 2022,
+      "year_label": "2022",
+      "years": [
+        2022
+      ],
+      "grupo": "prestacao-de-contas",
+      "paginas": 7,
+      "bytes": 396998,
+      "sha256": "1d37f4a9bfa3836a24a69d8b7b7a39bbf97300bbd5b6fb8e33bbe4d745c9352d",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_9d7b152cd1a84cd9a2ca8e0d845156c4.pdf",
+      "contexto": "Tabelas de 2022 do acolhimento emergencial, com registros diários de usuários e pernoites.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/prestacao-de-contas/DOC-011--dados-acolhimento-emergencial-2022.pdf"
+    },
+    {
+      "id": "DOC-012",
+      "source_id": "DOC-012",
+      "titulo": "Dados Casa de Passagem 2022-2023",
+      "title": "Dados Casa de Passagem 2022-2023",
+      "path": "assets/documents/dados-casa-passagem-2022-2023.pdf",
+      "year": 2023,
+      "year_label": "2022–2023",
+      "years": [
+        2022,
+        2023
+      ],
+      "grupo": "prestacao-de-contas",
+      "paginas": 20,
+      "bytes": 324133,
+      "sha256": "c30daf18e785be7e74e0425453cbc0fb8e50b92dee47f201d9b6836220df3a34",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_062e2aae1ef746caadff11a489c91dd7.pdf",
+      "contexto": "Tabelas de 2022 e 2023 da Casa de Passagem Benfica, organizadas por datas e totais mensais.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/prestacao-de-contas/DOC-012--dados-casa-de-passagem-2022-2023.pdf"
+    },
+    {
+      "id": "DOC-013",
+      "source_id": "DOC-013",
+      "titulo": "DESPESAS COM RECURSO PRÓPRIO DA OSC, APLICADO NAS PARCERIAS COM A PREFEITURA DE JUIZ DE FORA/MG.",
+      "title": "DESPESAS COM RECURSO PRÓPRIO DA OSC, APLICADO NAS PARCERIAS COM A PREFEITURA DE JUIZ DE FORA/MG.",
+      "path": "assets/documents/despesas-recursos-proprios-parcerias.pdf",
+      "year": null,
+      "year_label": "Sem ano identificado",
+      "years": [],
+      "grupo": "prestacao-de-contas",
+      "paginas": 15,
+      "bytes": 1811282,
+      "sha256": "3edd79e1591e7b15b2a99388ab97a5f6755035b8ad5249c1702f7d7ca89b58cb",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_d61694c2ac9a457b8c14d1a6eb8950ba.pdf",
+      "contexto": "Relato de aplicação de recursos próprios nas parcerias com Juiz de Fora, com justificativas e registros fotográficos de estrutura e aquisições.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/prestacao-de-contas/DOC-013--despesas-com-recurso-proprio-da-osc-aplicado-nas-parcerias-com-a-prefeitura-de-juiz-d.pdf"
+    },
+    {
+      "id": "DOC-014",
+      "source_id": "DOC-014",
+      "titulo": "Estatuto AACI - 17/09/25",
+      "title": "Estatuto AACI - 17/09/25",
+      "path": "assets/documents/estatuto-social-2025-09-17.pdf",
+      "year": 2025,
+      "year_label": "2025",
+      "years": [
+        2025
+      ],
+      "grupo": "governanca",
+      "paginas": 28,
+      "bytes": 15177134,
+      "sha256": "e03d8747d76c3d14020272b744c69ede55d054f329f591056266d55be6835aac",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_a30b3c67374b406d8d9fe698df39ebde.pdf",
+      "contexto": "Estatuto social de 17/09/2025: denominação, finalidades, administração, associados, patrimônio e disposições institucionais.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/governanca/DOC-014--estatuto-social-17-09-2025.pdf"
+    },
+    {
+      "id": "DOC-015",
+      "source_id": "DOC-015",
+      "titulo": "Portfólio 2020",
+      "title": "Portfólio 2020",
+      "path": "assets/documents/portfolio-aaci-2020.pdf",
+      "year": 2020,
+      "year_label": "2020",
+      "years": [
+        2020
+      ],
+      "grupo": "portfolios",
+      "paginas": 20,
+      "bytes": 6070830,
+      "sha256": "60ea2989a729f0b9d0f61b7fc42debd6c72d461ecee29204260d0c28a3bc7f8b",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_34589307fd72418e9c1c3656dcdc9f71.pdf",
+      "contexto": "Portfólio de 2020, com proposta temática, apresentação das atividades e registros visuais de ações educativas.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/portfolios/DOC-015--portfolio-aaci-2020.pdf"
+    },
+    {
+      "id": "DOC-016",
+      "source_id": "DOC-016",
+      "titulo": "Portfólio 2019",
+      "title": "Portfólio 2019",
+      "path": "assets/documents/portfolio-aaci-2019.pdf",
+      "year": 2019,
+      "year_label": "2019",
+      "years": [
+        2019
+      ],
+      "grupo": "portfolios",
+      "paginas": 23,
+      "bytes": 4085891,
+      "sha256": "a86a405ad53c965a93360a604ee5cf1ca1a30ac4308a1512d9957b19d29bd012",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_59d64450aa8f4a9aafb30735d32fda5a.pdf",
+      "contexto": "Portfólio de 2019, reunindo apresentação institucional, oficinas, projetos, imagens e apoios.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/portfolios/DOC-016--portifolio-2019.pdf"
+    },
+    {
+      "id": "DOC-017",
+      "source_id": "DOC-017",
+      "titulo": "Relatório de atividades SCFV 2015",
+      "title": "Relatório de atividades SCFV 2015",
+      "path": "assets/documents/relatorio-scfv-2015.pdf",
+      "year": 2015,
+      "year_label": "2015",
+      "years": [
+        2015
+      ],
+      "grupo": "relatorios-de-atividades",
+      "paginas": 8,
+      "bytes": 41922857,
+      "sha256": "2b1521b5d5f3937aa6b3e5882781a36748b2e1e290f0f813ceb654d9b33af18a",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_e4d5e64d1acd4270bff6530f4efb9075.pdf",
+      "contexto": "Relatório anual de execução do SCFV em 2015, com apresentação, atividades, avaliação e registros.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/relatorios-de-atividades/DOC-017--relatorio-2015-1.pdf"
+    },
+    {
+      "id": "DOC-018",
+      "source_id": "DOC-018",
+      "titulo": "Relatório de atividades SCFV 2016",
+      "title": "Relatório de atividades SCFV 2016",
+      "path": "assets/documents/relatorio-scfv-2016.pdf",
+      "year": 2016,
+      "year_label": "2016",
+      "years": [
+        2016
+      ],
+      "grupo": "relatorios-de-atividades",
+      "paginas": 10,
+      "bytes": 43433232,
+      "sha256": "52b15e7eab4f62d116621d622bd628d2afd6fdf4829c8f59a77958a26015f17f",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_0eda3e46b9704c6faa837618ca4327c9.pdf",
+      "contexto": "Relatório anual do SCFV em 2016, com contexto de atuação e descrição de atividades e resultados do período.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/relatorios-de-atividades/DOC-018--relatorio-2016-1.pdf"
+    },
+    {
+      "id": "DOC-019",
+      "source_id": "DOC-019",
+      "titulo": "Relatório de atividades SCFV 2017",
+      "title": "Relatório de atividades SCFV 2017",
+      "path": "assets/documents/relatorio-scfv-2017.pdf",
+      "year": 2017,
+      "year_label": "2017",
+      "years": [
+        2017
+      ],
+      "grupo": "relatorios-de-atividades",
+      "paginas": 11,
+      "bytes": 40316915,
+      "sha256": "a80259d08d6997ddb2fbd17685b5d4e54e8c65777791922c46c2f7b455e8e3af",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_670c134cd8934e1fad99b85d6e519115.pdf",
+      "contexto": "Relatório anual do SCFV em 2017, com ações socioeducativas e registros da execução.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/relatorios-de-atividades/DOC-019--relatorio-2017.pdf"
+    },
+    {
+      "id": "DOC-020",
+      "source_id": "DOC-020",
+      "titulo": "Relatório de atividades SCFV 2018",
+      "title": "Relatório de atividades SCFV 2018",
+      "path": "assets/documents/relatorio-scfv-2018.pdf",
+      "year": 2018,
+      "year_label": "2018",
+      "years": [
+        2018
+      ],
+      "grupo": "relatorios-de-atividades",
+      "paginas": 9,
+      "bytes": 41468064,
+      "sha256": "1b94aa6e9a00085f645cd9cbd55ce9ca2208e17ffe54b783db6c1c584cb5602f",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_8e0cf05a508d4c9c9711aa34eac495ae.pdf",
+      "contexto": "Relatório anual do SCFV em 2018, com propósito institucional, atividades e avaliação do exercício.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/relatorios-de-atividades/DOC-020--relatorio-2018.pdf"
+    },
+    {
+      "id": "DOC-021",
+      "source_id": "DOC-021",
+      "titulo": "Relatório de atividades SCFV 2019",
+      "title": "Relatório de atividades SCFV 2019",
+      "path": "assets/documents/relatorio-scfv-2019.pdf",
+      "year": 2019,
+      "year_label": "2019",
+      "years": [
+        2019
+      ],
+      "grupo": "relatorios-de-atividades",
+      "paginas": 11,
+      "bytes": 47309393,
+      "sha256": "6b2b0c3a8f88bd93f17f8ed7342ab0da1c3d395906b01e0106126eb40901181f",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_4be73c5201c74f7d88e3d83e6de33485.pdf",
+      "contexto": "Relatório anual do SCFV em 2019, com ações do ano, apoios e registros de desenvolvimento das atividades.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/relatorios-de-atividades/DOC-021--relatorio-2019.pdf"
+    },
+    {
+      "id": "DOC-022",
+      "source_id": "DOC-022",
+      "titulo": "Relatório de atividades SCFV 2021",
+      "title": "Relatório de atividades SCFV 2021",
+      "path": "assets/documents/relatorio-scfv-2021.pdf",
+      "year": 2021,
+      "year_label": "2021",
+      "years": [
+        2021
+      ],
+      "grupo": "relatorios-de-atividades",
+      "paginas": 11,
+      "bytes": 48375888,
+      "sha256": "2dce4250fba8f226ed5a4afe8e8277118f93afd5f9000e09101a4df7588902ee",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_e35caa03352141aabc3816b876ee34b5.pdf",
+      "contexto": "Relatório do SCFV em 2021, com descrição de atividades, acompanhamento e ações do período.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/relatorios-de-atividades/DOC-022--relatorio-2021.pdf"
+    },
+    {
+      "id": "DOC-023",
+      "source_id": "DOC-023",
+      "titulo": "Relatório de atividades Casa de Atenção à Pessoa Idosa 2023",
+      "title": "Relatório de atividades Casa de Atenção à Pessoa Idosa 2023",
+      "path": "assets/documents/relatorio-pessoa-idosa-2023.pdf",
+      "year": 2023,
+      "year_label": "2023",
+      "years": [
+        2023
+      ],
+      "grupo": "relatorios-de-atividades",
+      "paginas": 16,
+      "bytes": 36335195,
+      "sha256": "d6876a013bb805004e8584c9c85636075c1aa4fdbafcbfafe68dc83342d77c9d",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_80960b9de2c84a61b0c19eaea2c0d4b5.pdf",
+      "contexto": "Relatório de 2023 da Casa de Atenção à Pessoa Idosa, com identificação do serviço, público, cuidados e atividades.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/relatorios-de-atividades/DOC-023--relatorio-2023-corrigido.pdf"
+    },
+    {
+      "id": "DOC-024",
+      "source_id": "DOC-024",
+      "titulo": "Relatório de atividades Apadrinhamento Afetivo 2022",
+      "title": "Relatório de atividades Apadrinhamento Afetivo 2022",
+      "path": "assets/documents/relatorio-apadrinhamento-afetivo-2022.pdf",
+      "year": 2022,
+      "year_label": "2022",
+      "years": [
+        2022
+      ],
+      "grupo": "relatorios-de-atividades",
+      "paginas": 17,
+      "bytes": 39904147,
+      "sha256": "64d49903305b15b64c404a6f70f49bd61b8469461f58a0820d7e2802fe92e0ac",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_8455d8b1f391496299f61347f95cba7e.pdf",
+      "contexto": "Relatório de atividades de 2022 do Apadrinhamento Afetivo: divulgação, habilitação, capacitações e acompanhamento.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/relatorios-de-atividades/DOC-024--relatorio-apadrinhamento.pdf"
+    },
+    {
+      "id": "DOC-025",
+      "source_id": "DOC-025",
+      "titulo": "Relatório SCFV 2025",
+      "title": "Relatório SCFV 2025",
+      "path": "assets/documents/relatorio-scfv-2025.pdf",
+      "year": 2025,
+      "year_label": "2025",
+      "years": [
+        2025
+      ],
+      "grupo": "relatorios-de-atividades",
+      "paginas": 30,
+      "bytes": 12794406,
+      "sha256": "d87e7216cac71a20c0b6d909d919fecdde49400b2bf7d8dd7db0b8097cd64e70",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_1b029c5424bc4c5f84a1dd55299ad8bc.pdf",
+      "contexto": "Relatório SCFV 2025, “AACI em Movimento - Arte, Cultura e Convivência”, com identificação, ações, registros e avaliação.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/relatorios-de-atividades/DOC-025--relatorio-scfv-2025.pdf"
+    },
+    {
+      "id": "DOC-026",
+      "source_id": "DOC-026",
+      "titulo": "Relatório de atividades SCFV 2020",
+      "title": "Relatório de atividades SCFV 2020",
+      "path": "assets/documents/relatorio-scfv-2020.pdf",
+      "year": 2020,
+      "year_label": "2020",
+      "years": [
+        2020
+      ],
+      "grupo": "relatorios-de-atividades",
+      "paginas": 9,
+      "bytes": 39939792,
+      "sha256": "46e65d3eeec20cdad23cac169c11cdd6a82b80b895c5ae031031eb4b9271fea9",
+      "url": "https://www.aaci.org.br/_files/ugd/c696b8_0400694c516643b5952e1f6bd97ba7ff.pdf",
+      "contexto": "Relatório do SCFV em 2020, com atividades e formas de acompanhamento durante o período da pandemia.",
+      "source_path": "mapeamento site/AACI-organizado/05_documentos/relatorios-de-atividades/DOC-026--rlatorio-2020.pdf"
+    }
+  ]
+}
