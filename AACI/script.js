@@ -69,6 +69,13 @@
     const amountError = document.getElementById('donationAmountError');
     const whatsappLink = document.getElementById('donationWhatsapp');
     const amountButtons = Array.from(document.querySelectorAll('[data-donation-amount]'));
+    const pixPayment = document.getElementById('pixPayment');
+    const pixQr = modalElement?.querySelector('.pix-qr');
+    const pixQrHelp = document.getElementById('pixQrHelp');
+    const pixQrUnavailable = document.getElementById('pixQrUnavailable');
+    const copyPixPayload = document.getElementById('copyPixPayload');
+    const copyPixPayloadStatus = document.getElementById('copyPixPayloadStatus');
+    let currentPixPayload = '';
     const navigation = document.getElementById('mainNav');
     const navbarToggler = document.querySelector('.navbar-toggler[aria-controls="mainNav"]');
     let donationAmount = 50;
@@ -95,6 +102,41 @@
         && Number.isSafeInteger(cents) && hasValidPrecision
         ? cents / 100
         : null;
+    };
+
+    const updatePixQr = (amount) => {
+      if (!pixQr || !pixPayment) return;
+      if (copyPixPayloadStatus) copyPixPayloadStatus.textContent = '';
+      try {
+        if (amount === null) throw new Error('Invalid amount');
+        const payload = window.AaciPix.buildPayload(pixQr.dataset.pixBase, amount);
+        if (payload !== currentPixPayload) {
+          const qr = window.qrcode(0, 'M');
+          // O payload oficial usa caracteres alfanuméricos: menos módulos,
+          // sem redimensionamento fracionário em telas pequenas.
+          const mode = /^[0-9A-Z $%*+\-./:]+$/.test(payload) ? 'Alphanumeric' : 'Byte';
+          qr.addData(payload, mode);
+          qr.make();
+          pixQr.src = qr.createDataURL(4, 16);
+        }
+        currentPixPayload = payload;
+        pixQr.alt = `QR Code Pix da AACI para doar ${currency.format(amount)}`;
+        if (pixQrHelp) pixQrHelp.textContent = `Escaneie o QR ou copie o Pix para doar ${currency.format(amount)}.`;
+        pixPayment.hidden = false;
+        if (pixQrUnavailable) pixQrUnavailable.hidden = true;
+        if (copyPixPayload) copyPixPayload.disabled = false;
+      } catch {
+        currentPixPayload = '';
+        pixQr.removeAttribute('src');
+        pixPayment.hidden = true;
+        if (copyPixPayload) copyPixPayload.disabled = true;
+        if (pixQrUnavailable) {
+          pixQrUnavailable.hidden = false;
+          pixQrUnavailable.textContent = amount === null
+            ? 'Escolha um valor válido para gerar o QR Code.'
+            : 'Não foi possível gerar o QR Code. Copie a chave Pix abaixo e informe o valor no aplicativo do banco.';
+        }
+      }
     };
 
     const updateDonationAmount = (value, updateInput = true) => {
@@ -137,6 +179,7 @@
       } else if (amountLabel) {
         amountLabel.textContent = 'Escolha um valor';
       }
+      updatePixQr(amount);
     };
 
     document.querySelectorAll('.donate-trigger').forEach((button) => {
@@ -221,8 +264,37 @@
       });
     }
 
+    copyPixPayload?.addEventListener('click', async () => {
+      const payload = currentPixPayload;
+      if (!payload) return;
+      let copied = false;
+      try {
+        if (!navigator.clipboard?.writeText) throw new Error('Clipboard unavailable');
+        await navigator.clipboard.writeText(payload);
+        copied = true;
+      } catch {
+        const input = document.createElement('textarea');
+        input.value = payload;
+        input.readOnly = true;
+        input.style.cssText = 'position:fixed;left:-9999px;top:0';
+        // Dentro do modal para que o foco do Bootstrap permita a seleção.
+        modalElement.append(input);
+        input.focus({ preventScroll: true });
+        input.select();
+        try { copied = document.execCommand('copy'); } catch { copied = false; }
+        input.remove();
+        copyPixPayload.focus({ preventScroll: true });
+      }
+      if (copyPixPayloadStatus && currentPixPayload === payload) {
+        copyPixPayloadStatus.textContent = copied
+          ? 'Pix com valor copiado. Cole no aplicativo do seu banco.'
+          : 'Não foi possível copiar. Escaneie o QR ou copie a chave Pix abaixo.';
+      }
+    });
+
     const impactAmount = document.getElementById('impactAmount');
     const impactDescription = document.getElementById('impactDescription');
+    const impactSummary = document.getElementById('impactSummary');
     const impactButtons = Array.from(document.querySelectorAll('[data-impact-amount]'));
 
     impactButtons.forEach((button) => {
@@ -236,12 +308,22 @@
           option.setAttribute('aria-pressed', selected ? 'true' : 'false');
         });
         if (impactAmount) impactAmount.textContent = currency.format(amount);
+        if (impactSummary && button.dataset.impactTitle) {
+          impactSummary.textContent = button.dataset.impactTitle;
+        }
         if (impactDescription && button.dataset.impactDescription) {
           impactDescription.textContent = button.dataset.impactDescription;
         }
 
         document.querySelectorAll('[data-impact-donate]').forEach((trigger) => {
           trigger.dataset.amount = String(amount);
+          trigger.textContent = `Quero contribuir com ${currency.format(amount)}`;
+        });
+        document.querySelectorAll('[data-impact-example]').forEach((example) => {
+          const selected = example.dataset.impactExample === String(amount);
+          example.classList.toggle('is-selected', selected);
+          const status = example.querySelector('[data-impact-selected]');
+          if (status) status.hidden = !selected;
         });
       });
     });

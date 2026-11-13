@@ -1,0 +1,9 @@
+{
+  "estado": "aprovado",
+  "verificacoes": [
+    "Imagens públicas sem acesso às cópias locais",
+    "26 PDFs externos com download local",
+    "Reprodução real do MP4 externo",
+    "Alternativas locais de imagem, galeria, vídeo e capa sem rede externa"
+  ]
+}
