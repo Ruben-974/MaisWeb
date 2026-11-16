@@ -14,7 +14,9 @@ Acesse `http://127.0.0.1:5500`. Não há instalação ou build obrigatório. Use
 
 ## Organização
 
-São 20 páginas: início; quem somos; serviços; convivência; pessoa idosa; apadrinhamento; fisioterapia; como ajudar; transparência; notícias; cinco artigos em `noticias/`; galeria; vídeos; contato; privacidade; e trabalhe conosco.
+São 21 páginas: início; quem somos; serviços; convivência; pessoa idosa; apadrinhamento; fisioterapia; como ajudar; transparência; notícias; cinco artigos em `noticias/`; galeria; vídeos; AACI na mídia; contato; privacidade; e trabalhe conosco.
+
+Os quantitativos da página inicial ficam em `arquivos/dados/home-statistics.json`, com fonte, período e distinção entre pessoas, inscrições e vagas. A seção aparece antes da história institucional. A página `AACI/aaci-na-midia.html` reúne quatro reportagens com os players e as miniaturas já disponíveis. O WhatsApp fixo utiliza o canal de doações e informações `(32) 98855-9201` e não envia mensagens automaticamente.
 
 A página inicial apresenta os serviços e conduz aos detalhes. Biblioteca, perguntas dos programas, textos completos e notícias têm seus próprios espaços.
 
@@ -70,7 +72,7 @@ O comando utiliza os manifestos e `arquivos/tools/site-research.json`, sem modif
 
 ## Validação
 
-A sintaxe, as referências locais, âncoras, IDs e as interações das 20 páginas são verificadas por ferramentas locais e testes de DOM com Bootstrap. O banner e a seção de contribuição também foram conferidos em Chrome headless nas larguras de 320, 375, 768, 950 e 1440 px, com revisão das capturas em celular e desktop. Não houve teste em aparelhos físicos. Os resultados e as capturas estão em `arquivos/output/site-layout-tests.json` e `arquivos/output/donation-*.png`.
+A sintaxe, as referências locais, âncoras, IDs e as interações das 21 páginas são verificadas por ferramentas locais e testes de DOM com Bootstrap. Navegação, quantitativos, história compacta, atalhos fixos, doação e reportagens também foram conferidos em Chrome headless nas larguras de 320, 375, 768, 950, 1200 e 1440 px, com revisão das capturas em celular e desktop. Não houve teste em aparelhos físicos. Os resultados e as capturas estão em `arquivos/output/site-layout-tests.json` e nas imagens de `arquivos/output/`.
 
 Para repetir a verificação de layout, inicie um servidor local na porta 8765 com `--directory AACI`, disponibilize `playwright-core` no `NODE_PATH` e execute `node arquivos/tools/test_aaci_layout.cjs`. É possível definir `AACI_PREVIEW_URL` e `AACI_BROWSER_PATH` para outro endereço ou executável de navegador.
 

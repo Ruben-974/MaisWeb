@@ -610,6 +610,13 @@
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
+    },
+    "assets/images/doacao-alimentos-aaci.png": {
+      "url": "https://static.wixstatic.com/media/c696b8_8ffa6c4a9f9249aebaf8b902a32a7300~mv2.png/v1/crop/x_545,y_345,w_170,h_85/fill/w_680,h_340,al_c,q_90,enc_auto/cestas-aaci.png",
+      "tipo": "imagem",
+      "status": 200,
+      "content_type": "image/png",
+      "disponivel": true
     }
   },
   "sem_fonte_externa": [

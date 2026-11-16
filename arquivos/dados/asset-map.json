@@ -393,6 +393,26 @@
       "key": "11550709000187",
       "key_type": "CNPJ",
       "crc_valid": true
+    },
+    "doacao-alimentos": {
+      "nome": "doacao-alimentos",
+      "source_id": "AACI-SCFV-2023-25",
+      "path": "assets/images/doacao-alimentos-aaci.png",
+      "width": 680,
+      "height": 340,
+      "alt": "Cestas básicas organizadas pela AACI para doação.",
+      "contexto": "Enquadramento de uma unica fotografia de cestas basicas publicada pela AACI, sem os demais elementos da composicao original.",
+      "url": "https://static.wixstatic.com/media/c696b8_8ffa6c4a9f9249aebaf8b902a32a7300~mv2.png/v1/crop/x_545,y_345,w_170,h_85/fill/w_680,h_340,al_c,q_90,enc_auto/cestas-aaci.png",
+      "bytes": 685659,
+      "autor": "AACI",
+      "fonte_pagina": "https://www.aaci.org.br/c%C3%B3pia-in%C3%ADcio",
+      "crop": null,
+      "recorte_original": [
+        545,
+        345,
+        170,
+        85
+      ]
     }
   },
   "parceiros": [

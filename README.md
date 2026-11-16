@@ -1,6 +1,8 @@
 # AACI — site e materiais de apoio
 
-O site pronto está em **[`AACI/`](AACI/)**. Essa pasta contém 20 páginas HTML, estilos, scripts, imagens, quatro vídeos locais, 26 PDFs públicos e as bibliotecas com suas licenças.
+O site pronto está em **[`AACI/`](AACI/)**. Essa pasta contém 21 páginas HTML, estilos, scripts, imagens, quatro vídeos locais, 26 PDFs públicos e as bibliotecas com suas licenças.
+
+A página inicial mantém a apresentação, os serviços, os exemplos de contribuição e as notícias, com uma seção de quantitativos antes da história institucional. Os números documentados e seus períodos estão em `arquivos/dados/home-statistics.json`. A página **AACI na mídia** reúne quatro reportagens. O cabeçalho e o rodapé incluem as mesmas opções principais, e o atalho fixo do WhatsApp abre uma conversa com a instituição.
 
 Imagens, documentos e MP4 usam primeiro os endereços públicos da AACI, Wix e YouTube. As imagens e os vídeos retornam automaticamente à cópia local se a fonte externa falhar; os PDFs oferecem o link “Baixar cópia local”. A imagem principal fornecida no modelo e o favicon continuam locais por não terem uma fonte pública equivalente. Todos os arquivos locais foram mantidos.
 

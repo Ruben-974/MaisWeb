@@ -59,7 +59,7 @@ async function eventAction(element, name, action) {
     assert.equal(p.d.querySelectorAll('iframe').length, 0, 'No embedded YouTube player before click');
     p.close();
   }
-  log('20 páginas carregam seus scripts sem erros; players do YouTube são incorporados apenas após clique');
+  log(`${pageList.length} páginas carregam seus scripts sem erros; players do YouTube são incorporados apenas após clique`);
 
   let p = await open('index.html');
   p.$('[data-donation-next]').click();

@@ -8,9 +8,9 @@
       "titulo": "1 kit para desenhar e criar",
       "descricao": "Mais cores e descobertas nas atividades: um kit simples pode abrir espaço para a criatividade.",
       "itens": "Lápis de cor, lápis grafite, borracha e apontador.",
-      "imagem": "sala-atividades",
+      "imagem": "convivencia-oficinas",
       "resumo_banner": "um kit para desenhar e criar",
-      "preco_referencia": 24.90,
+      "preco_referencia": 24.9,
       "fonte": "Papelaria Universo da Arte — kit BIC com 12 lápis de cor, 2 lápis grafite, borracha e apontador",
       "url": "https://www.universodaart.com.br/produtos/kit-escolar-12-lapis-de-cor-2-lapis-preto-borracha-apontador-bic/"
     },
@@ -21,7 +21,7 @@
       "itens": "Caderno, lápis de cor e bloco de papel.",
       "imagem": "convivencia",
       "resumo_banner": "um kit de materiais escolares",
-      "preco_referencia": 45.90,
+      "preco_referencia": 45.9,
       "fonte": "Rara Papelaria — kit com caderno de 96 folhas, lápis de cor e bloco de papel",
       "url": "https://www.rarapapelaria.com.br/produtos/kit-escolar-caderno-e-lapis-de-cor-metalizado-qvw4w/"
     },
@@ -30,9 +30,9 @@
       "titulo": "1 cesta básica compacta",
       "descricao": "Alimentos essenciais na mesa: uma forma concreta de apoiar o cuidado e o acolhimento às famílias.",
       "itens": "Arroz, feijão, óleo, macarrão e outros alimentos essenciais.",
-      "imagem": "campanhas",
+      "imagem": "doacao-alimentos",
       "resumo_banner": "uma cesta básica compacta",
-      "preco_referencia": 99.90,
+      "preco_referencia": 99.9,
       "fonte": "Loja Poupe Mais — cesta básica econômica de alimentos",
       "url": "https://www.lojapoupemaisrs.com.br/produtos/cesta-basica-economico/"
     },
@@ -41,9 +41,9 @@
       "titulo": "2 cestas básicas compactas",
       "descricao": "O cuidado pode chegar mais longe: o equivalente a duas cestas compactas de alimentos essenciais.",
       "itens": "Duas vezes o exemplo de R$ 100, para ampliar o apoio às famílias.",
-      "imagem": "campanhas",
+      "imagem": "doacao-alimentos",
       "resumo_banner": "duas cestas básicas compactas",
-      "preco_referencia": 199.80,
+      "preco_referencia": 199.8,
       "fonte": "Estimativa: 2 × cesta básica econômica de R$ 99,90 da Loja Poupe Mais",
       "url": "https://www.lojapoupemaisrs.com.br/produtos/cesta-basica-economico/"
     }

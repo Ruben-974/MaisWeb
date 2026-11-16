@@ -1,0 +1,13 @@
+{
+  "titulo": "Cuidado que faz parte da vida de muitas pessoas.",
+  "descricao": "Conheça registros de participação, atendimento e apoio às famílias em nossos serviços e ações.",
+  "observacao": "Registros por serviço e período. Pessoas, inscrições e vagas são medidas diferentes e não devem ser somadas.",
+  "indicadores": [
+    {"valor": "75", "rotulo": "inscrições na roda de conversa", "servico": "Convivência e vínculos", "periodo": "2025", "icone": "people", "fonte": "Relatório SCFV 2025, atividade Roda de Conversa, página 3", "arquivo_fonte": "02_textos/documentos/DOC-025--relatorio-scfv-2025.txt"},
+    {"valor": "25", "rotulo": "pessoas idosas inscritas na informática", "servico": "Inclusão digital", "periodo": "2025", "icone": "chart", "fonte": "Relatório SCFV 2025, oficina de informática para pessoas idosas", "arquivo_fonte": "02_textos/documentos/DOC-025--relatorio-scfv-2025.txt"},
+    {"valor": "20", "rotulo": "pessoas idosas acompanhadas", "servico": "Casa de Atenção à Pessoa Idosa", "periodo": "Julho de 2024", "icone": "heart", "fonte": "Reportagem do MGTV sobre a fisioterapia, publicada em 4 de julho de 2024", "arquivo_fonte": "02_textos/paginas/PAG-031--sala-de-fisioterapia-da-aaci-e-pauta-no-mgtv.txt"},
+    {"valor": "54", "rotulo": "vagas para fisioterapia gratuita", "servico": "Fisioterapia", "periodo": "Julho de 2024", "icone": "pulse", "fonte": "Reportagem do MGTV e descrição do vídeo uDHRizneRKA: atendimentos disponibilizados, sem confirmação de pessoas únicas atendidas", "arquivo_fonte": "02_textos/paginas/PAG-031--sala-de-fisioterapia-da-aaci-e-pauta-no-mgtv.txt"},
+    {"valor": "20", "rotulo": "adolescentes acompanhados pela equipe", "servico": "Apadrinhamento Afetivo", "periodo": "2022", "icone": "people", "fonte": "Resultados do Programa Apadrinhamento Afetivo no ano de 2022", "arquivo_fonte": "02_textos/paginas/PAG-006--apadrinhamento-5.txt"},
+    {"valor": "+1.200", "rotulo": "pessoas contempladas com doações", "servico": "Natal Solidário", "periodo": "Campanha de 2024", "icone": "bag", "fonte": "Descrição da campanha Natal Solidário AACI 2024 no catálogo de vídeos: mais de 1200 pessoas contempladas, entre doações de cestas básicas e brinquedos", "arquivo_fonte": "tools/site-research.json: wix_galeria/c696b8_f27206036f42420582bd66b91e9818ca"}
+  ]
+}
