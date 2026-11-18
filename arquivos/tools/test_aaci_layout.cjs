@@ -5,7 +5,7 @@ const path = require('node:path');
 const { chromium } = require('playwright-core');
 
 const support = path.resolve(__dirname, '..');
-const root = path.join(support, '../AACI');
+const root = path.resolve(support, '..');
 const output = path.join(support, 'output');
 const base = process.env.AACI_PREVIEW_URL || 'http://127.0.0.1:8765';
 const executablePath = process.env.AACI_BROWSER_PATH || 'C:/Program Files/Google/Chrome/Application/chrome.exe';
@@ -82,7 +82,7 @@ const executablePath = process.env.AACI_BROWSER_PATH || 'C:/Program Files/Google
         await page.locator('.navbar-toggler').click();
         await page.locator('#mainNav.show').waitFor();
       }
-      await page.locator('.site-header a[href="aaci-na-midia.html"]').click();
+      await page.locator('.site-header a[href="pages/aaci-na-midia.html"]').click();
       await page.waitForURL('**/aaci-na-midia.html');
       assert.equal(await page.locator('h1').textContent(), 'AACI na mídia');
       assert.equal(await page.locator('[data-youtube]').count(), 4);

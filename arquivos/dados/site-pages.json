@@ -1,26 +1,26 @@
 {
   "paginas": [
     "index.html",
-    "quem-somos.html",
-    "servicos.html",
-    "convivencia.html",
-    "pessoa-idosa.html",
-    "apadrinhamento.html",
-    "fisioterapia.html",
-    "como-ajudar.html",
-    "transparencia.html",
-    "noticias.html",
-    "noticias/cozinha-comunitaria.html",
-    "noticias/entrega-dos-moveis.html",
-    "noticias/doe-e-transforme-vidas.html",
-    "noticias/mensagem-de-carinho.html",
-    "noticias/fisioterapia-no-mgtv.html",
-    "galeria.html",
-    "videos.html",
-    "aaci-na-midia.html",
-    "contato.html",
-    "privacidade.html",
-    "trabalhe-conosco.html"
+    "pages/quem-somos.html",
+    "pages/servicos.html",
+    "pages/convivencia.html",
+    "pages/pessoa-idosa.html",
+    "pages/apadrinhamento.html",
+    "pages/fisioterapia.html",
+    "pages/como-ajudar.html",
+    "pages/transparencia.html",
+    "pages/noticias.html",
+    "pages/noticias/cozinha-comunitaria.html",
+    "pages/noticias/entrega-dos-moveis.html",
+    "pages/noticias/doe-e-transforme-vidas.html",
+    "pages/noticias/mensagem-de-carinho.html",
+    "pages/noticias/fisioterapia-no-mgtv.html",
+    "pages/galeria.html",
+    "pages/videos.html",
+    "pages/aaci-na-midia.html",
+    "pages/contato.html",
+    "pages/privacidade.html",
+    "pages/trabalhe-conosco.html"
   ],
   "noticias": [
     {
@@ -48,7 +48,7 @@
       },
       "fonte_html": "mapeamento site\\AACI-organizado\\07_tecnico\\html-fontes\\ARQ-0918--cozinha-comunitaria.html",
       "nota": "Ano obtido do JSON-LD original, n?o inferido da data abreviada. Corpo sem menus, tempo de leitura ou sugest?es de posts.",
-      "pagina": "noticias/cozinha-comunitaria.html"
+      "pagina": "pages/noticias/cozinha-comunitaria.html"
     },
     {
       "id": "PAG-028",
@@ -72,7 +72,7 @@
       },
       "fonte_html": "mapeamento site\\AACI-organizado\\07_tecnico\\html-fontes\\ARQ-0921--entrega-dos-moveis.html",
       "nota": "Ano obtido do JSON-LD original, n?o inferido da data abreviada. Corpo sem menus, tempo de leitura ou sugest?es de posts.",
-      "pagina": "noticias/entrega-dos-moveis.html"
+      "pagina": "pages/noticias/entrega-dos-moveis.html"
     },
     {
       "id": "PAG-026",
@@ -99,7 +99,7 @@
       },
       "fonte_html": "mapeamento site\\AACI-organizado\\07_tecnico\\html-fontes\\ARQ-0919--doe-e-transforme-vidas.html",
       "nota": "Ano obtido do JSON-LD original, n?o inferido da data abreviada. Corpo sem menus, tempo de leitura ou sugest?es de posts.",
-      "pagina": "noticias/doe-e-transforme-vidas.html"
+      "pagina": "pages/noticias/doe-e-transforme-vidas.html"
     },
     {
       "id": "PAG-027",
@@ -119,7 +119,7 @@
       },
       "fonte_html": "mapeamento site\\AACI-organizado\\07_tecnico\\html-fontes\\ARQ-0920--ela-tem-uma-mensagem-importante-para-voce.html",
       "nota": "Ano obtido do JSON-LD original, n?o inferido da data abreviada. Corpo sem menus, tempo de leitura ou sugest?es de posts.",
-      "pagina": "noticias/mensagem-de-carinho.html"
+      "pagina": "pages/noticias/mensagem-de-carinho.html"
     },
     {
       "id": "PAG-031",
@@ -140,7 +140,7 @@
       },
       "fonte_html": "mapeamento site\\AACI-organizado\\07_tecnico\\html-fontes\\ARQ-0925--sala-de-fisioterapia-da-aaci-e-pauta-no-mgtv.html",
       "nota": "Ano obtido do JSON-LD original, n?o inferido da data abreviada. Corpo sem menus, tempo de leitura ou sugest?es de posts.",
-      "pagina": "noticias/fisioterapia-no-mgtv.html"
+      "pagina": "pages/noticias/fisioterapia-no-mgtv.html"
     }
   ],
   "atualizacao": "2026-11-13"

@@ -4,10 +4,11 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 import hashlib
 import json
+import xml.etree.ElementTree as ET
 from lxml import html
 
 SUPPORT=Path(__file__).resolve().parents[1]
-ROOT=SUPPORT.parent/'AACI'
+ROOT=SUPPORT.parent
 DATA=SUPPORT/'dados'
 
 
@@ -53,8 +54,20 @@ def main():
   if digest(ROOT/item['path'])!=item['sha256']:errors.append(['asset hash',item['path']])
  expected={'uDHRizneRKA','lWxUV477eho','qHtH_RGf0Ro','21nHcb3aW1Q','ZWRPjVnhJs0','B2m5VMVNvvg','NBQDaKdFK5c'}
  if set(yt)!=expected:errors.append(['YouTube coverage',list(yt)])
+ if [p.name for p in ROOT.glob('*.html')]!=['index.html']:errors.append(['HTML fora de pages/'])
+ if any(name!='index.html' and not name.startswith('pages/') for name in pages):errors.append(['Estrutura das páginas inválida'])
+ sitemap_count=0
+ try:
+  base=json.loads((DATA/'site-config.json').read_text(encoding='utf-8'))['base_url'].rstrip('/')
+  locations=ET.parse(ROOT/'sitemap.xml').findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')
+  urls=[element.text for element in locations]
+  sitemap_count=len(urls)
+  expected_urls={base+('/' if name=='index.html' else '/'+name) for name in pages}
+  if set(urls)!=expected_urls or len(urls)!=len(expected_urls):errors.append(['Sitemap não corresponde às páginas'])
+  if f'Sitemap: {base}/sitemap.xml' not in (ROOT/'robots.txt').read_text(encoding='utf-8'):errors.append(['Sitemap ausente no robots.txt'])
+ except (OSError,ET.ParseError,KeyError) as error:errors.append(['robots/sitemap',str(error)])
  result={'estado':'aprovado' if not errors else 'falhas','paginas_verificadas':html_count,'documentos_locais_sha256':len(docs),
-         'videos_locais_sha256':len(media),'youtube_ids_e_ocorrencias':dict(yt),'erros':errors,
+         'videos_locais_sha256':len(media),'youtube_ids_e_ocorrencias':dict(yt),'sitemap_paginas':sitemap_count,'erros':errors,
          'teste_de_layout':'Verificação separada: arquivos/tools/test_aaci_layout.cjs; relatório em arquivos/output/site-layout-tests.json.'}
  target=SUPPORT/'output/site-validation.json';target.parent.mkdir(exist_ok=True);target.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
  print(json.dumps(result,ensure_ascii=False,indent=2))

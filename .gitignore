@@ -4,14 +4,15 @@
 /arquivos/assets-nao-utilizados/
 /arquivos/output/
 /arquivos/tmp/
+/arquivos/relatorios/
 /mapeamento site/
 /output/
 /tmp/
 
 # Cópias locais de imagens, vídeos e documentos do site.
-/AACI/assets/images/
-/AACI/assets/media/
-/AACI/assets/documents/
+/assets/img/**
+/assets/media/
+/assets/documents/
 
 # Mídias e documentos adicionados em outras pastas.
 *.png
@@ -56,8 +57,8 @@
 *.tgz
 
 # Exceções essenciais: sem URL pública; aproximadamente 220 KB no total.
-!/AACI/assets/hero.webp
-!/AACI/assets/favicon.png
+!/assets/img/banner.webp
+!/assets/img/favicon.png
 
 # Dependências, caches e arquivos de ambiente.
 node_modules/
@@ -72,50 +73,50 @@ venv/
 .DS_Store
 Thumbs.db
 desktop.ini
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/Conversa do WhatsApp com Aaci Adm.txt
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260408-WA0015.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260408-WA0022.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260408-WA0023.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260409-WA0031.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260410-WA0007.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260410-WA0008.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260430-WA0016.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260430-WA0017.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260504-WA0002.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260504-WA0003.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260504-WA0028.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260504-WA0029.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260506-WA0010.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260508-WA0009.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260508-WA0010.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260508-WA0012.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260508-WA0031.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260512-WA0003.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260520-WA0003.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260813-WA0005.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261007-WA0016.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261009-WA0028.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261009-WA0039.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261104-WA0004.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261104-WA0018.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0002.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0003.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0006.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0012.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0013.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0014.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0018.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0019.opus
-Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0020.opus
-Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/Conversa do WhatsApp com Comunicação Geral.txt
-Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260329-WA0025.opus
-Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260413-WA0035.opus
-Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260428-WA0068.opus
-Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260521-WA0008.opus
-Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260521-WA0014.opus
-Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260521-WA0016.opus
-Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260521-WA0017.opus
-Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260521-WA0018.opus
-Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260530-WA0017.opus
-Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20261005-WA0033.opus
-Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20261112-WA0022.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/Conversa do WhatsApp com Aaci Adm.txt
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260408-WA0015.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260408-WA0022.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260408-WA0023.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260409-WA0031.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260410-WA0007.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260410-WA0008.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260430-WA0016.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260430-WA0017.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260504-WA0002.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260504-WA0003.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260504-WA0028.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260504-WA0029.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260506-WA0010.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260508-WA0009.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260508-WA0010.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260508-WA0012.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260508-WA0031.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260512-WA0003.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260520-WA0003.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20260813-WA0005.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261007-WA0016.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261009-WA0028.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261009-WA0039.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261104-WA0004.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261104-WA0018.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0002.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0003.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0006.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0012.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0013.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0014.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0018.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0019.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Aaci Adm/PTT-20261113-WA0020.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/Conversa do WhatsApp com Comunicação Geral.txt
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260329-WA0025.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260413-WA0035.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260428-WA0068.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260521-WA0008.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260521-WA0014.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260521-WA0016.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260521-WA0017.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260521-WA0018.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20260530-WA0017.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20261005-WA0033.opus
+arquivos/relatorios/Relatorio +Web/Conversa do WhatsApp com Comunicação Geral/PTT-20261112-WA0022.opus

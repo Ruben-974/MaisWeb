@@ -1,13 +1,15 @@
 """Gera o site estático principal a partir do conteúdo editorial e do acervo AACI."""
 from pathlib import Path
 from datetime import datetime
-from urllib.parse import quote
+from urllib.parse import quote, urlsplit, urlunsplit, unquote
+import posixpath
+import xml.etree.ElementTree as ET
 import html
 import json
 import re
 
 SUPPORT=Path(__file__).resolve().parents[1]
-ROOT=SUPPORT.parent/'AACI'
+ROOT=SUPPORT.parent
 ASSETS=ROOT/'assets'
 DATA=SUPPORT/'dados'
 RESEARCH=json.loads((SUPPORT/'tools/site-research.json').read_text(encoding='utf-8'))
@@ -17,6 +19,7 @@ PIX=json.loads((DATA/'pix-config.json').read_text(encoding='utf-8'))
 REMOTE=json.loads((DATA/'external-media.json').read_text(encoding='utf-8'))
 EXTERNAL_DOCUMENTS=json.loads((DATA/'external-documents.json').read_text(encoding='utf-8'))['documentos']
 HOME_STATISTICS=json.loads((DATA/'home-statistics.json').read_text(encoding='utf-8'))
+SITE_CONFIG=json.loads((DATA/'site-config.json').read_text(encoding='utf-8'))
 MAP={}
 DOCS=[]
 BUILT=[]
@@ -69,7 +72,7 @@ def navbar(active,prefix):
  def nav(label,file):return f'<li class="nav-item"><a class="nav-link{" active" if active==file else ""}" href="{prefix}{file}"'+(' aria-current="page"' if active==file else '')+f'>{label}</a></li>'
  services=''.join(f'<li><a class="dropdown-item" href="{prefix}{file}">{label}</a></li>' for file,label in [('servicos.html','Todos os serviços'),('convivencia.html','Convivência e vínculos'),('pessoa-idosa.html','Atenção à pessoa idosa'),('apadrinhamento.html','Apadrinhamento Afetivo'),('fisioterapia.html','Fisioterapia gratuita')])
  news=''.join(f'<li><a class="dropdown-item" href="{prefix}{file}">{label}</a></li>' for file,label in [('noticias.html','Notícias'),('videos.html','Vídeos'),('galeria.html','Galeria de fotos'),('trabalhe-conosco.html','Trabalhe conosco')])
- return f'''<header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navegação principal"><div class="container site-container"><a class="navbar-brand" href="{prefix}index.html" aria-label="AACI — início"><img src="{prefix}assets/aaci-logo.png" width="142" height="52" alt="AACI — Associação de Apoio a Crianças e Idosos"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menu de navegação"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNav"><ul class="navbar-nav ms-auto align-items-xl-center">{nav('Quem somos','quem-somos.html')}<li class="nav-item dropdown"><button class="nav-link dropdown-toggle{' active' if active in SERVICE_PAGES else ''}" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="servicesMenu">O que fazemos</button><ul class="dropdown-menu" aria-labelledby="servicesMenu">{services}</ul></li>{nav('Como ajudar','como-ajudar.html')}{nav('Transparência','transparencia.html')}<li class="nav-item dropdown"><button class="nav-link dropdown-toggle{' active' if active in {'noticias.html','videos.html','galeria.html','trabalhe-conosco.html'} else ''}" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="storiesMenu">Acontece</button><ul class="dropdown-menu" aria-labelledby="storiesMenu">{news}</ul></li>{nav('AACI na mídia','aaci-na-midia.html')}{nav('Contato','contato.html')}<li class="nav-item nav-donate"><button class="btn btn-coral donate-trigger" type="button" data-amount="50">Quero doar</button></li></ul></div></div></nav></header>'''
+ return f'''<header class="site-header"><nav class="navbar navbar-expand-xl" aria-label="Navegação principal"><div class="container site-container"><a class="navbar-brand" href="{prefix}index.html" aria-label="AACI — início"><img src="{prefix}assets/img/logo.png" width="142" height="52" alt="AACI — Associação de Apoio a Crianças e Idosos"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menu de navegação"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNav"><ul class="navbar-nav ms-auto align-items-xl-center">{nav('Quem somos','quem-somos.html')}<li class="nav-item dropdown"><button class="nav-link dropdown-toggle{' active' if active in SERVICE_PAGES else ''}" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="servicesMenu">O que fazemos</button><ul class="dropdown-menu" aria-labelledby="servicesMenu">{services}</ul></li>{nav('Como ajudar','como-ajudar.html')}{nav('Transparência','transparencia.html')}<li class="nav-item dropdown"><button class="nav-link dropdown-toggle{' active' if active in {'noticias.html','videos.html','galeria.html','trabalhe-conosco.html'} else ''}" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="storiesMenu">Acontece</button><ul class="dropdown-menu" aria-labelledby="storiesMenu">{news}</ul></li>{nav('AACI na mídia','aaci-na-midia.html')}{nav('Contato','contato.html')}<li class="nav-item nav-donate"><button class="btn btn-coral donate-trigger" type="button" data-amount="50">Quero doar</button></li></ul></div></div></nav></header>'''
 
 
 def floating_whatsapp():
@@ -108,15 +111,47 @@ def externalize_media(markup,prefix):
  return re.sub(r'<(img|source|video|a)\b[^>]*>',replace_tag,markup)
 
 
+def page_path(logical):
+ return logical if logical=='index.html' else 'pages/'+logical
+
+
+def relocate_urls(markup,logical,physical):
+ def rewrite(match):
+  attribute,value=match.group(1),html.unescape(match.group(2))
+  url=urlsplit(value)
+  if url.scheme or url.netloc or not url.path:return match.group(0)
+  target=posixpath.normpath(posixpath.join(posixpath.dirname(logical),unquote(url.path)))
+  if target.endswith('.html'):target=page_path(target)
+  relative=posixpath.relpath(target,posixpath.dirname(physical) or '.')
+  result=urlunsplit(('', '', quote(relative,safe='/-._~'),url.query,url.fragment))
+  return f'{attribute}="{e(result)}"'
+ return re.sub(r'\b(src|href|poster|data-local-src|data-local-href|data-local-poster)="([^"]*)"',rewrite,markup)
+
+
+def write_discovery():
+ base=SITE_CONFIG['base_url'].rstrip('/')
+ (ROOT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nDisallow: /arquivos/\n\nSitemap: {base}/sitemap.xml\n',encoding='utf-8')
+ namespace='http://www.sitemaps.org/schemas/sitemap/0.9'
+ ET.register_namespace('',namespace)
+ sitemap=ET.Element('{'+namespace+'}urlset')
+ for file in BUILT:
+  entry=ET.SubElement(sitemap,'{'+namespace+'}url')
+  ET.SubElement(entry,'{'+namespace+'}loc').text=base+('/' if file=='index.html' else '/'+file)
+ ET.indent(sitemap,space='  ')
+ ET.ElementTree(sitemap).write(ROOT/'sitemap.xml',encoding='utf-8',xml_declaration=True)
+
+
 def write_page(file,title,description,body,active=None):
  prefix='../' if '/' in file else ''
  sprite=(SUPPORT/'tools/site-templates/icons.html').read_text(encoding='utf-8')
  modal=(SUPPORT/'tools/site-templates/donation-modal.html').read_text(encoding='utf-8')
- preload=f'<link rel="preload" href="{prefix}assets/hero.webp" as="image" fetchpriority="high">' if file=='index.html' else ''
+ preload=f'<link rel="preload" href="{prefix}assets/img/banner.webp" as="image" fetchpriority="high">' if file=='index.html' else ''
  modal=modal.replace('<div class="pix-box">',f'''<div class="pix-box"><div id="pixPayment" hidden><img class="pix-qr" data-pix-base="{e(PIX['payload_original'])}" width="228" height="228" alt="QR Code Pix da AACI" aria-describedby="pixQrHelp"><p class="small-note" id="pixQrHelp"></p><button class="btn btn-wine w-100" id="copyPixPayload" type="button" disabled>{icon('copy')} Copiar Pix com valor</button><p class="copy-status" id="copyPixPayloadStatus" role="status" aria-live="polite"></p></div><p class="small-note" id="pixQrUnavailable" hidden></p>''')
- page=f'''<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#4b1025"><meta name="description" content="{e(description)}"><title>{e(title)} | AACI</title><link rel="icon" href="{prefix}assets/favicon.png" type="image/png">{preload}<link rel="stylesheet" href="{prefix}assets/vendor/bootstrap.min.css"><link rel="stylesheet" href="{prefix}styles.css"><link rel="stylesheet" href="{prefix}site-pages.css"><script src="{prefix}assets/js/media.js" defer></script><script src="{prefix}assets/vendor/bootstrap.bundle.min.js" defer></script><script src="{prefix}assets/vendor/qrcode.js" defer></script><script src="{prefix}assets/js/pix.js" defer></script><script src="{prefix}script.js" defer></script><script src="{prefix}assets/js/site.js" defer></script></head><body id="topo"><a class="skip-link" href="#conteudo">Pular para o conteúdo</a>{sprite}{navbar(active or file,prefix)}<main id="conteudo">{body}</main>{footer(prefix)}{modal}{gallery_modal()}<noscript><div class="noscript-note">Você pode ler as páginas, acessar documentos e <a href="{prefix}como-ajudar.html#doar">conhecer as formas de contribuir</a>. Ative JavaScript para abrir os vídeos incorporados e usar os filtros.</div></noscript></body></html>'''
+ page=f'''<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#4b1025"><meta name="description" content="{e(description)}"><title>{e(title)} | AACI</title><link rel="icon" href="{prefix}assets/img/favicon.png" type="image/png">{preload}<link rel="stylesheet" href="{prefix}assets/css/reset.css"><link rel="stylesheet" href="{prefix}assets/css/bootstrap.min.css"><link rel="stylesheet" href="{prefix}assets/css/style.css"><link rel="stylesheet" href="{prefix}assets/css/pages.css"><script src="{prefix}assets/js/media.js" defer></script><script src="{prefix}assets/js/vendor/bootstrap.bundle.min.js" defer></script><script src="{prefix}assets/js/vendor/qrcode.js" defer></script><script src="{prefix}assets/js/pix.js" defer></script><script src="{prefix}assets/js/main.js" defer></script><script src="{prefix}assets/js/site.js" defer></script></head><body id="topo"><a class="skip-link" href="#conteudo">Pular para o conteúdo</a>{sprite}{navbar(active or file,prefix)}<main id="conteudo">{body}</main>{footer(prefix)}{modal}{gallery_modal()}<noscript><div class="noscript-note">Você pode ler as páginas, acessar documentos e <a href="{prefix}como-ajudar.html#doar">conhecer as formas de contribuir</a>. Ative JavaScript para abrir os vídeos incorporados e usar os filtros.</div></noscript></body></html>'''
  page=externalize_media(page,prefix)
- path=ROOT/file;path.parent.mkdir(parents=True,exist_ok=True);path.write_text(page.replace('><','>\n<'),encoding='utf-8');BUILT.append(file)
+ physical=page_path(file)
+ page=relocate_urls(page,file,physical)
+ path=ROOT/physical;path.parent.mkdir(parents=True,exist_ok=True);path.write_text(page.replace('><','>\n<'),encoding='utf-8');BUILT.append(physical)
 
 
 def yt_player(id,prefix='',caption=True):
@@ -175,7 +210,7 @@ def home_statistics():
 
 
 def home():
- body=f'''<section class="hero" id="inicio" aria-labelledby="heroTitle"><img class="hero-image" src="assets/hero.webp" alt="Crianças sorrindo e abraçadas em um ambiente de convivência" width="1674" height="940" fetchpriority="high"><div class="container site-container hero-inner"><div class="hero-content"><div class="hero-intro"><p class="eyebrow"><span class="coral-dot"></span>Cuidar transforma futuros</p><h1 id="heroTitle">Transforme cuidado<br class="desktop-break"> em oportunidades<br class="desktop-break"> reais.</h1><ul class="hero-assurances list-unstyled"><li>{icon('check')}Desde 2010</li><li>{icon('check')}Atendimento gratuito</li><li>{icon('check')}Transparência</li></ul></div><div class="donation-carousel" role="region" aria-label="Formas de contribuir"><div class="donation-stack" data-donation-index="0">'''
+ body=f'''<section class="hero" id="inicio" aria-labelledby="heroTitle"><img class="hero-image" src="assets/img/banner.webp" alt="Crianças sorrindo e abraçadas em um ambiente de convivência" width="1674" height="940" fetchpriority="high"><div class="container site-container hero-inner"><div class="hero-content"><div class="hero-intro"><p class="eyebrow"><span class="coral-dot"></span>Cuidar transforma futuros</p><h1 id="heroTitle">Transforme cuidado<br class="desktop-break"> em oportunidades<br class="desktop-break"> reais.</h1><ul class="hero-assurances list-unstyled"><li>{icon('check')}Desde 2010</li><li>{icon('check')}Atendimento gratuito</li><li>{icon('check')}Transparência</li></ul></div><div class="donation-carousel" role="region" aria-label="Formas de contribuir"><div class="donation-stack" data-donation-index="0">'''
  for i,amount in enumerate([100,50,25]):
   item=next(example for example in IMPACTS if example['valor']==amount)
   body+=f'<article class="donation-card{" is-active" if not i else ""}" data-index="{i}" data-position="{i}"'+(' aria-hidden="true" inert' if i else '')+f'>{img(item["imagem"])}<div class="donation-card-body"><p class="donation-impact-copy"><span class="donation-impact-amount">Com cerca de <strong>R$ {amount}</strong></span>você ajuda com <b>{e(item["resumo_banner"])}.</b></p><button class="btn btn-wine donate-trigger" type="button" data-amount="{amount}">Doar R$ {amount}</button></div></article>'
@@ -330,7 +365,8 @@ def main():
  for key in ['hero','convivencia','idosos','apadrinhamento','fisioterapia','informatica','campanhas','cozinha','fachada','refeitorio','sala-atividades','noticia-cozinha','noticia-moveis','noticia-mensagem','noticia-doacao','noticia-fisioterapia']:
   assert key in MAP['imagens'],key
  home();about();services();service_details();help_page();transparency();news_pages();gallery_pages();press_page();contact_page();privacy_and_jobs()
- (DATA/'site-pages.json').write_text(json.dumps({'paginas':BUILT,'noticias':[{**n,'pagina':'noticias/'+ARTICLE_MAP[n['id']][0]+'.html'} for n in RESEARCH['noticias']],'atualizacao':'2026-11-13'},ensure_ascii=False,indent=2),encoding='utf-8')
+ write_discovery()
+ (DATA/'site-pages.json').write_text(json.dumps({'paginas':BUILT,'noticias':[{**n,'pagina':'pages/noticias/'+ARTICLE_MAP[n['id']][0]+'.html'} for n in RESEARCH['noticias']],'atualizacao':'2026-11-13'},ensure_ascii=False,indent=2),encoding='utf-8')
  print(f'Site gerado: {len(BUILT)} páginas HTML. Documentos: {len(DOCS)}. Vídeos YouTube: {len(YT)}.')
  for path in BUILT:print(path)
 

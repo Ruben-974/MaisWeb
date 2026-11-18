@@ -2,10 +2,10 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const support = path.resolve(__dirname, '..');
-const root = path.join(support, '../AACI');
+const root = path.resolve(support, '..');
 const { buildPayload } = require(path.join(root, 'assets/js/pix.js'));
 const config = require(path.join(support, 'dados/pix-config.json'));
-const qrGenerator = require(path.join(root, 'assets/vendor/qrcode.js'));
+const qrGenerator = require(path.join(root, 'assets/js/vendor/qrcode.js'));
 
 const base = config.payload_original;
 // Referência calculada independentemente com Python binascii.crc_hqx(..., 0xffff).

@@ -4,7 +4,7 @@ const path = require('node:path');
 const assert = require('node:assert/strict');
 const { JSDOM, VirtualConsole } = require('jsdom');
 const support = path.resolve(__dirname, '..');
-const root = path.join(support, '../AACI');
+const root = path.resolve(support, '..');
 const pageList = JSON.parse(fs.readFileSync(path.join(support, 'dados/site-pages.json'), 'utf8')).paginas;
 const passed = [];
 const log = message => { passed.push(message); console.log(`PASS: ${message}`); };
@@ -34,7 +34,7 @@ async function open(file, protocol = 'http:') {
   };
   w.HTMLElement.prototype.scrollIntoView = function () {};
   w.open = (...args) => { opened.push(args); return null; };
-  for (const script of ['assets/js/media.js', 'assets/vendor/bootstrap.bundle.min.js', 'assets/vendor/qrcode.js', 'assets/js/pix.js', 'script.js', 'assets/js/site.js']) {
+  for (const script of ['assets/js/media.js', 'assets/js/vendor/bootstrap.bundle.min.js', 'assets/js/vendor/qrcode.js', 'assets/js/pix.js', 'assets/js/main.js', 'assets/js/site.js']) {
     w.eval(fs.readFileSync(path.join(root, script), 'utf8'));
   }
   if (w.document.readyState !== 'complete') await new Promise(resolve => w.addEventListener('load', resolve, { once: true }));
@@ -133,7 +133,7 @@ async function eventAction(element, name, action) {
   log('Menu móvel abre, fecha ao doar e recebe o foco após fechar o modal');
   assert.equal(p.errors.length, 0, p.errors.join('\n')); p.close();
 
-  p = await open('transparencia.html');
+  p = await open('pages/transparencia.html');
   const docs = () => [...p.d.querySelectorAll('[data-filter-item]')].filter(el => !el.hidden);
   assert.equal(docs().length, 26);
   p.$('[data-filter-search]').value = 'estatuto';
@@ -145,23 +145,23 @@ async function eventAction(element, name, action) {
   assert.equal(docs().length, 0); assert.ok(!p.$('[data-filter-empty]').hidden);
   log('Biblioteca: 26 PDFs, pesquisa, ano e estado sem resultados'); p.close();
 
-  p = await open('noticias.html');
+  p = await open('pages/noticias.html');
   p.$('[data-filter-search]').value = 'fisioterapia'; p.$('[data-filter-search]').dispatchEvent(new p.w.Event('input'));
   assert.equal([...p.d.querySelectorAll('[data-filter-item]')].filter(el => !el.hidden).length, 1);
   log('Pesquisa de notícias apresenta a reportagem correspondente'); p.close();
 
-  p = await open('fisioterapia.html');
+  p = await open('pages/fisioterapia.html');
   p.$('.video-facade').click();
   assert.match(p.$('iframe').src, /^https:\/\/www.youtube-nocookie.com\/embed\/uDHRizneRKA/);
   assert.match(p.$('iframe').title, /Fisioterapia/);
   assert.equal(p.$('iframe').referrerPolicy, 'strict-origin-when-cross-origin');
   log('Player YouTube é incorporado no serviço correto somente após clique'); p.close();
-  p = await open('fisioterapia.html', 'file:'); p.$('.video-facade').click();
+  p = await open('pages/fisioterapia.html', 'file:'); p.$('.video-facade').click();
   assert.equal(p.opened.length, 1); assert.match(p.opened[0][0], /youtube.com\/watch\?v=uDHRizneRKA/);
   assert.ok(!p.$('iframe'));
   log('Abertura direta por arquivo utiliza o link alternativo do YouTube'); p.close();
 
-  p = await open('galeria.html');
+  p = await open('pages/galeria.html');
   p.$('[data-filter-category="nossos espacos"]').click();
   const visible = [...p.d.querySelectorAll('[data-gallery-link]')].filter(el => !el.closest('[hidden]'));
   assert.ok(visible.length > 1 && visible.length < 18);
@@ -174,7 +174,7 @@ async function eventAction(element, name, action) {
   assert.equal(p.d.activeElement, visible[0]);
   log('Galeria filtra espaços, amplia a foto, navega por setas/teclado e restaura o foco'); p.close();
 
-  p = await open('contato.html');
+  p = await open('pages/contato.html');
   assert.equal(p.$('#contactForm [type="submit"]').disabled, false);
   const submit = () => p.$('#contactForm').dispatchEvent(new p.w.Event('submit', { bubbles: true, cancelable: true }));
   submit(); assert.ok(p.$('#contactResult').hidden);
@@ -190,12 +190,12 @@ async function eventAction(element, name, action) {
   assert.ok(p.$('#contactResult').hidden); assert.ok(!p.$('#contactWhatsapp').hasAttribute('href'));
   log('Contato valida os campos, prepara WhatsApp revisável e invalida rascunho após alterações'); p.close();
 
-  p = await open('como-ajudar.html');
+  p = await open('pages/como-ajudar.html');
   p.$('[data-copy-pix]').click(); await wait(0); assert.equal(p.copied.at(-1), '11550709000187');
   await eventAction(p.$('#helpFaq1'), 'shown.bs.collapse', () => p.$('[data-bs-target="#helpFaq1"]').click());
   assert.ok(!p.$('#helpFaq0').classList.contains('show'));
   log('Pix da página de apoio e perguntas frequentes funcionam'); p.close();
-  p = await open('noticias/cozinha-comunitaria.html');
+  p = await open('pages/noticias/cozinha-comunitaria.html');
   p.$('[data-share-page]').click(); await wait(0);
   assert.match(p.copied.at(-1), /noticias\/cozinha-comunitaria.html/);
   assert.equal(p.d.querySelectorAll('video source').length, 1);

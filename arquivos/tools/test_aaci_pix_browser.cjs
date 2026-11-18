@@ -5,7 +5,7 @@ const { pathToFileURL } = require('node:url');
 const { chromium } = require('playwright-core');
 
 const support = path.resolve(__dirname, '..');
-const root = path.join(support, '../AACI');
+const root = path.resolve(support, '..');
 const output = path.join(support, 'output');
 const images = [];
 
@@ -64,7 +64,7 @@ const images = [];
     }
     // Página interna confirma os caminhos relativos dos novos scripts.
     const page = await browser.newPage();
-    await page.goto(pathToFileURL(path.join(root, 'noticias/cozinha-comunitaria.html')).href);
+    await page.goto(pathToFileURL(path.join(root, 'pages/noticias/cozinha-comunitaria.html')).href);
     await page.locator('.nav-donate .donate-trigger').click();
     await page.locator('#pixPayment').waitFor({ state: 'visible' });
     assert.ok((await page.locator('.pix-qr').getAttribute('src')).startsWith('data:image/gif;'));

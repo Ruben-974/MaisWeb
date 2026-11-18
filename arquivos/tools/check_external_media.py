@@ -9,7 +9,7 @@ import requests
 from PIL import Image, ImageOps
 
 SUPPORT = Path(__file__).resolve().parents[1]
-ROOT = SUPPORT.parent/'AACI'
+ROOT = SUPPORT.parent
 DATA = SUPPORT/'dados'
 HEADERS = {'User-Agent': 'Mozilla/5.0', 'Referer': 'https://www.aaci.org.br/'}
 
@@ -59,7 +59,7 @@ def main():
         local = asset['path']
         if local not in resources and asset.get('url') and (ROOT/local).is_file():
             resources[local] = {'url': image_url(asset), 'tipo': 'imagem'}
-    resources['assets/aaci-logo.png'] = {'url': assets['logo']['url'], 'tipo': 'imagem'}
+    resources['assets/img/logo.png'] = {'url': assets['logo']['url'], 'tipo': 'imagem'}
     for doc in docs:
         resources[doc['path']] = {'url': doc['url'], 'tipo': 'documento'}
     covers = {'VID-001': 'noticia-cozinha', 'VID-002': 'noticia-moveis', 'VID-003': 'noticia-mensagem', 'VID-004': 'noticia-doacao'}
@@ -69,7 +69,7 @@ def main():
     with ThreadPoolExecutor(max_workers=8) as executor:
         resources = dict(executor.map(check, resources.items()))
     result = {'preferencia': 'externo', 'verificado_em': datetime.now(timezone.utc).isoformat(),
-              'recursos': resources, 'sem_fonte_externa': ['assets/hero.webp', 'assets/favicon.png']}
+              'recursos': resources, 'sem_fonte_externa': ['assets/img/banner.webp', 'assets/img/favicon.png']}
     (DATA/'external-media.json').write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8')
     print(f'Fontes verificadas: {len(resources)}; disponíveis: {sum(r["disponivel"] for r in resources.values())}.')
     for local, entry in resources.items():

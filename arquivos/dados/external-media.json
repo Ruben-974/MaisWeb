@@ -2,364 +2,364 @@
   "preferencia": "externo",
   "verificado_em": "2026-11-13T17:57:17.948354+00:00",
   "recursos": {
-    "assets/images/convivencia.webp": {
+    "assets/img/convivencia.webp": {
       "url": "https://static.wixstatic.com/media/c696b8_f140b173c1ef408095236b6b47ab77ad~mv2.jpg/v1/crop/x_0,y_1450,w_2250,h_1810/fill/w_1440,h_1158,al_c,q_85,enc_auto/c696b8_f140b173c1ef408095236b6b47ab77ad~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/idosos.webp": {
+    "assets/img/idosos.webp": {
       "url": "https://static.wixstatic.com/media/c696b8_46da88648d834815a8c414a1ab5f4258~mv2.jpg/v1/crop/x_9,y_0,w_1581,h_899/fill/w_1581,h_889,al_c,q_85,enc_avif,quality_auto/WhatsApp%20Image%202024-02-20%20at%2010_26_34%20(1).jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/apadrinhamento.webp": {
+    "assets/img/apadrinhamento.webp": {
       "url": "https://static.wixstatic.com/media/c696b8_2bfc981926db47a1aea6dfe9403f2087~mv2.jpeg/v1/fit/w_1280,h_719,q_90,enc_avif,quality_auto/c696b8_2bfc981926db47a1aea6dfe9403f2087~mv2.jpeg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/fisioterapia.webp": {
+    "assets/img/fisioterapia.webp": {
       "url": "https://static.wixstatic.com/media/c696b8_910d6d05c4fb414785f5f9d222e777cc~mv2.png/v1/crop/x_900,y_154,w_1020,h_771/fill/w_1020,h_771,al_c,q_85,enc_auto/c696b8_910d6d05c4fb414785f5f9d222e777cc~mv2.png",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/png",
       "disponivel": true
     },
-    "assets/images/informatica.webp": {
+    "assets/img/informatica.webp": {
       "url": "https://static.wixstatic.com/media/5d1de8_560feec61ef34f8b8651da638a68d639~mv2.jpg/v1/fill/w_1535,h_1025,q_90,enc_avif,quality_auto/5d1de8_560feec61ef34f8b8651da638a68d639~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/cozinha.webp": {
+    "assets/img/cozinha.webp": {
       "url": "https://static.wixstatic.com/media/5d1de8_75edbfef306d4e89ae7d881489a4ef25~mv2.jpg/v1/fill/w_1535,h_1025,q_90,enc_avif,quality_auto/5d1de8_75edbfef306d4e89ae7d881489a4ef25~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/fachada.webp": {
+    "assets/img/fachada.webp": {
       "url": "https://static.wixstatic.com/media/c696b8_68603adb17f348fcbd454987531a2a00~mv2.jpg/v1/fit/w_2895,h_2170,q_90,enc_avif,quality_auto/c696b8_68603adb17f348fcbd454987531a2a00~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/refeitorio.webp": {
+    "assets/img/refeitorio.webp": {
       "url": "https://static.wixstatic.com/media/5d1de8_9a34b117102140d697bf345597532649~mv2.jpg/v1/fill/w_1530,h_1020,q_90,enc_avif,quality_auto/5d1de8_9a34b117102140d697bf345597532649~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/brinquedoteca.webp": {
+    "assets/img/brinquedoteca.webp": {
       "url": "https://static.wixstatic.com/media/5d1de8_212ec275644d41a2bab53c603a206dec~mv2.jpg/v1/fill/w_1535,h_1025,q_90,enc_avif,quality_auto/5d1de8_212ec275644d41a2bab53c603a206dec~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/sala-atividades.webp": {
+    "assets/img/sala-atividades.webp": {
       "url": "https://static.wixstatic.com/media/5d1de8_53d5557b9de2489089d8964d9c79e602~mv2.jpg/v1/fill/w_1530,h_1020,q_90,enc_avif,quality_auto/5d1de8_53d5557b9de2489089d8964d9c79e602~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/noticia-cozinha.webp": {
+    "assets/img/noticia-cozinha.webp": {
       "url": "https://static.wixstatic.com/media/c696b8_026f60f860054403873ad2329a506adef000.jpg/v1/fill/w_1080,h_810,fp_0.50_0.50,q_90,enc_avif,quality_auto/c696b8_026f60f860054403873ad2329a506adef000.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/noticia-moveis.webp": {
+    "assets/img/noticia-moveis.webp": {
       "url": "https://static.wixstatic.com/media/c696b8_43f43fc10df94ababbd1eb4373d7945ef000.jpg/v1/fill/w_1080,h_810,fp_0.50_0.50,q_90,enc_avif,quality_auto/c696b8_43f43fc10df94ababbd1eb4373d7945ef000.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/noticia-mensagem.webp": {
+    "assets/img/noticia-mensagem.webp": {
       "url": "https://static.wixstatic.com/media/c696b8_c1f9ed035fe342f18265b365be3fabe0f000.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/noticia-doacao.webp": {
+    "assets/img/noticia-doacao.webp": {
       "url": "https://static.wixstatic.com/media/c696b8_effc98bbe8fb45f493dd18a699d1cef9f000.jpg/v1/fill/w_576,h_432,fp_0.50_0.50,q_90,enc_avif,quality_auto/c696b8_effc98bbe8fb45f493dd18a699d1cef9f000.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/noticia-fisioterapia.webp": {
+    "assets/img/noticia-fisioterapia.webp": {
       "url": "https://i.ytimg.com/vi/uDHRizneRKA/maxresdefault.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/convivencia-oficinas.webp": {
+    "assets/img/convivencia-oficinas.webp": {
       "url": "https://static.wixstatic.com/media/c696b8_7165c4e567e74b7b9fc53ffce72882f8~mv2.png/v1/crop/x_697,y_25,w_881,h_643/fill/w_622,h_454,al_c,q_85,enc_auto/c696b8_7165c4e567e74b7b9fc53ffce72882f8~mv2.png",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/png",
       "disponivel": true
     },
-    "assets/images/idosos-convivencia.webp": {
+    "assets/img/idosos-convivencia.webp": {
       "url": "https://static.wixstatic.com/media/c696b8_6e1b8e0c4b494d5bb7ff97c2afa99f60~mv2.jpg/v1/fill/w_939,h_720,al_c,q_85,enc_avif,quality_auto/WhatsApp%20Image%202024-02-19%20at%2013_40_42.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/apadrinhamento-encontro.webp": {
+    "assets/img/apadrinhamento-encontro.webp": {
       "url": "https://static.wixstatic.com/media/c696b8_674cf13da4f5481c83441149c2a0d6ed~mv2.jpeg/v1/fit/w_1159,h_871,q_90,enc_avif,quality_auto/c696b8_674cf13da4f5481c83441149c2a0d6ed~mv2.jpeg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/campanha-natal.webp": {
+    "assets/img/campanha-natal.webp": {
       "url": "https://static.wixstatic.com/media/5d1de8_59fcf4bd27114241ba19b75afb8688e9~mv2.jpg/v1/fill/w_2025,h_1350,q_90,enc_avif,quality_auto/5d1de8_59fcf4bd27114241ba19b75afb8688e9~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/parque-infantil.webp": {
+    "assets/img/parque-infantil.webp": {
       "url": "https://static.wixstatic.com/media/5d1de8_6791e2d362324e779cf29f83ace8c7c9~mv2.jpg/v1/fill/w_1535,h_1025,q_90,enc_avif,quality_auto/5d1de8_6791e2d362324e779cf29f83ace8c7c9~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/recepcao.webp": {
+    "assets/img/recepcao.webp": {
       "url": "https://static.wixstatic.com/media/5d1de8_6c3c6f5822b54fb48268829218755fa1~mv2.jpg/v1/fill/w_1530,h_1020,q_90,enc_avif,quality_auto/5d1de8_6c3c6f5822b54fb48268829218755fa1~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/convivencia-sala.webp": {
+    "assets/img/convivencia-sala.webp": {
       "url": "https://static.wixstatic.com/media/c696b8_2424137a5cb042e18d8e2afb79429ec5~mv2.jpg/v1/fit/w_2895,h_2170,q_90,enc_avif,quality_auto/c696b8_2424137a5cb042e18d8e2afb79429ec5~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/parceiros/startoys.png": {
+    "assets/img/parceiros/startoys.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_0e0da80ab1b24a129d59833c92e3ddc0~mv2.jpg/v1/fit/w_487,h_487,q_90,enc_avif,quality_auto/5d1de8_0e0da80ab1b24a129d59833c92e3ddc0~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/parceiros/mesa-brasil-sesc.png": {
+    "assets/img/parceiros/mesa-brasil-sesc.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_28d658b706ca4c5ebe96bc40c3cb4d5f~mv2.jpg/v1/fit/w_410,h_410,q_90,enc_avif,quality_auto/5d1de8_28d658b706ca4c5ebe96bc40c3cb4d5f~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/parceiros/universidade-federal-de-juiz-de-fora.png": {
+    "assets/img/parceiros/universidade-federal-de-juiz-de-fora.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_2d6f0f830ffe4a218f25bb8a35c3648c~mv2.jpg/v1/fit/w_823,h_823,q_90,enc_avif,quality_auto/5d1de8_2d6f0f830ffe4a218f25bb8a35c3648c~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/parceiros/havan.png": {
+    "assets/img/parceiros/havan.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_337b344b84a24918be4c5f6a4af3d92d~mv2.png/v1/fit/w_980,h_980,q_90,enc_avif,quality_auto/5d1de8_337b344b84a24918be4c5f6a4af3d92d~mv2.png",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/png",
       "disponivel": true
     },
-    "assets/images/parceiros/instituto-embelleze.png": {
+    "assets/img/parceiros/instituto-embelleze.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_3780b7c741b24c91b2c01a879f518ffc~mv2.png/v1/fit/w_534,h_534,q_90,enc_avif,quality_auto/5d1de8_3780b7c741b24c91b2c01a879f518ffc~mv2.png",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/png",
       "disponivel": true
     },
-    "assets/images/parceiros/coca-cola-femsa.png": {
+    "assets/img/parceiros/coca-cola-femsa.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_3e839fc6584a4ac1a1e9f4a2b84d1d84~mv2.png/v1/fit/w_453,h_453,q_90,enc_avif,quality_auto/5d1de8_3e839fc6584a4ac1a1e9f4a2b84d1d84~mv2.png",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/png",
       "disponivel": true
     },
-    "assets/images/parceiros/ri-happy.png": {
+    "assets/img/parceiros/ri-happy.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_40241d7fd381464f8cf27cf29f25d582~mv2.png/v1/fit/w_980,h_980,q_90,enc_avif,quality_auto/5d1de8_40241d7fd381464f8cf27cf29f25d582~mv2.png",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/png",
       "disponivel": true
     },
-    "assets/images/parceiros/fiat-delta.png": {
+    "assets/img/parceiros/fiat-delta.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_456230cbcced471084a245ab3bf1142f~mv2.jpg/v1/fit/w_432,h_352,q_90,enc_avif,quality_auto/5d1de8_456230cbcced471084a245ab3bf1142f~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/parceiros/gente-em-primeiro-lugar.png": {
+    "assets/img/parceiros/gente-em-primeiro-lugar.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_54e89cc50f4d405b943584b6ea5753f4~mv2.jpg/v1/fit/w_268,h_210,q_90,enc_avif,quality_auto/5d1de8_54e89cc50f4d405b943584b6ea5753f4~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/parceiros/moinho-zona-norte.png": {
+    "assets/img/parceiros/moinho-zona-norte.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_5e4823b3ff344d47bcab9affe06e7918~mv2.jpg/v1/fit/w_870,h_870,q_90,enc_avif,quality_auto/5d1de8_5e4823b3ff344d47bcab9affe06e7918~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/parceiros/pais-e-filhos.png": {
+    "assets/img/parceiros/pais-e-filhos.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_624b8cfb33eb42d4950af95edd015b91~mv2.jpg/v1/fit/w_225,h_225,q_90,enc_avif,quality_auto/5d1de8_624b8cfb33eb42d4950af95edd015b91~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/parceiros/stop-hunger.png": {
+    "assets/img/parceiros/stop-hunger.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_6ec05fca67034900bdabfa9e572a21c8~mv2.png/v1/fit/w_980,h_980,q_90,enc_avif,quality_auto/5d1de8_6ec05fca67034900bdabfa9e572a21c8~mv2.png",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/png",
       "disponivel": true
     },
-    "assets/images/parceiros/crianca-esperanca.png": {
+    "assets/img/parceiros/crianca-esperanca.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_80c3958f143b4292a08d2646fc508841~mv2.jpg/v1/fit/w_553,h_553,q_90,enc_avif,quality_auto/5d1de8_80c3958f143b4292a08d2646fc508841~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/parceiros/engenheiros-sem-fronteiras-nucleo-juiz-de-fora.png": {
+    "assets/img/parceiros/engenheiros-sem-fronteiras-nucleo-juiz-de-fora.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_99666fbc13804facb05f7fd86b2ef426~mv2.png/v1/fit/w_980,h_980,q_90,enc_avif,quality_auto/5d1de8_99666fbc13804facb05f7fd86b2ef426~mv2.png",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/png",
       "disponivel": true
     },
-    "assets/images/parceiros/thomson-reuters.png": {
+    "assets/img/parceiros/thomson-reuters.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_a21557bf4f1d48afaad321046940b28e~mv2.png/v1/fit/w_276,h_164,q_90,enc_avif,quality_auto/5d1de8_a21557bf4f1d48afaad321046940b28e~mv2.png",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/png",
       "disponivel": true
     },
-    "assets/images/parceiros/bom-brasileiro.png": {
+    "assets/img/parceiros/bom-brasileiro.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_a985758fbc964e278a0e2e3af54de8be~mv2.png/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/5d1de8_a985758fbc964e278a0e2e3af54de8be~mv2.png",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/parceiros/patria-voluntaria.png": {
+    "assets/img/parceiros/patria-voluntaria.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_ced30f0ee50342c3aa021b23ba012786~mv2.png/v1/fit/w_300,h_300,q_90,enc_avif,quality_auto/5d1de8_ced30f0ee50342c3aa021b23ba012786~mv2.png",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/png",
       "disponivel": true
     },
-    "assets/images/parceiros/associacao-esportiva-e-recreativa-becton-dickinson.png": {
+    "assets/img/parceiros/associacao-esportiva-e-recreativa-becton-dickinson.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_d630b5ed84fa4882ac3d1b91123ffc20~mv2.jpg/v1/fit/w_471,h_471,q_90,enc_avif,quality_auto/5d1de8_d630b5ed84fa4882ac3d1b91123ffc20~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/parceiros/da-festa.png": {
+    "assets/img/parceiros/da-festa.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_d6e21eafab304faeb841ad2f727711b0~mv2.jpg/v1/fit/w_249,h_189,q_90,enc_avif,quality_auto/5d1de8_d6e21eafab304faeb841ad2f727711b0~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/parceiros/plenarius-escola-de-profissoes.png": {
+    "assets/img/parceiros/plenarius-escola-de-profissoes.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_e4f784a541c24b36be73ab6a018f1bbb~mv2.jpg/v1/fit/w_333,h_333,q_90,enc_avif,quality_auto/5d1de8_e4f784a541c24b36be73ab6a018f1bbb~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/parceiros/mrs-logistica.png": {
+    "assets/img/parceiros/mrs-logistica.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_f7a0c4b7f13f4e9e8f75f27889d07e1f~mv2.png/v1/fit/w_505,h_505,q_90,enc_avif,quality_auto/5d1de8_f7a0c4b7f13f4e9e8f75f27889d07e1f~mv2.png",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/png",
       "disponivel": true
     },
-    "assets/images/parceiros/grupo-bahamas.png": {
+    "assets/img/parceiros/grupo-bahamas.png": {
       "url": "https://static.wixstatic.com/media/5d1de8_fd8b4c25003f45a6bb7211cb5bf8f25f~mv2.jpg/v1/fit/w_900,h_900,q_90,enc_avif,quality_auto/5d1de8_fd8b4c25003f45a6bb7211cb5bf8f25f~mv2.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/youtube/21nHcb3aW1Q.webp": {
+    "assets/img/youtube/21nHcb3aW1Q.webp": {
       "url": "https://i.ytimg.com/vi/21nHcb3aW1Q/maxresdefault.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/youtube/B2m5VMVNvvg.webp": {
+    "assets/img/youtube/B2m5VMVNvvg.webp": {
       "url": "https://i.ytimg.com/vi/B2m5VMVNvvg/maxresdefault.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/youtube/lWxUV477eho.webp": {
+    "assets/img/youtube/lWxUV477eho.webp": {
       "url": "https://i.ytimg.com/vi/lWxUV477eho/maxresdefault.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/youtube/NBQDaKdFK5c.webp": {
+    "assets/img/youtube/NBQDaKdFK5c.webp": {
       "url": "https://i.ytimg.com/vi/NBQDaKdFK5c/maxresdefault.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/youtube/qHtH_RGf0Ro.webp": {
+    "assets/img/youtube/qHtH_RGf0Ro.webp": {
       "url": "https://i.ytimg.com/vi/qHtH_RGf0Ro/maxresdefault.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/youtube/uDHRizneRKA.webp": {
+    "assets/img/youtube/uDHRizneRKA.webp": {
       "url": "https://i.ytimg.com/vi/uDHRizneRKA/maxresdefault.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/youtube/ZWRPjVnhJs0.webp": {
+    "assets/img/youtube/ZWRPjVnhJs0.webp": {
       "url": "https://i.ytimg.com/vi/ZWRPjVnhJs0/maxresdefault.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/aaci-logo.png": {
+    "assets/img/logo.png": {
       "url": "https://static.wixstatic.com/media/c696b8_d9edf2995511459ab5825c2b2e76e141~mv2.png/v1/fill/w_1024,h_332,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c696b8_d9edf2995511459ab5825c2b2e76e141~mv2.png",
       "tipo": "imagem",
       "status": 206,
@@ -555,7 +555,7 @@
       "content_type": "video/mp4",
       "disponivel": true
     },
-    "assets/media/cozinha-comunitaria-poster.jpg": {
+    "assets/img/video-posters/cozinha-comunitaria-poster.jpg": {
       "url": "https://static.wixstatic.com/media/c696b8_026f60f860054403873ad2329a506adef000.jpg/v1/fill/w_1080,h_810,fp_0.50_0.50,q_90,enc_avif,quality_auto/c696b8_026f60f860054403873ad2329a506adef000.jpg",
       "tipo": "imagem",
       "status": 206,
@@ -569,7 +569,7 @@
       "content_type": "video/mp4",
       "disponivel": true
     },
-    "assets/media/entrega-dos-moveis-poster.jpg": {
+    "assets/img/video-posters/entrega-dos-moveis-poster.jpg": {
       "url": "https://static.wixstatic.com/media/c696b8_43f43fc10df94ababbd1eb4373d7945ef000.jpg/v1/fill/w_1080,h_810,fp_0.50_0.50,q_90,enc_avif,quality_auto/c696b8_43f43fc10df94ababbd1eb4373d7945ef000.jpg",
       "tipo": "imagem",
       "status": 206,
@@ -583,7 +583,7 @@
       "content_type": "video/mp4",
       "disponivel": true
     },
-    "assets/media/mensagem-importante-poster.jpg": {
+    "assets/img/video-posters/mensagem-importante-poster.jpg": {
       "url": "https://static.wixstatic.com/media/c696b8_c1f9ed035fe342f18265b365be3fabe0f000.jpg",
       "tipo": "imagem",
       "status": 206,
@@ -597,21 +597,21 @@
       "content_type": "video/mp4",
       "disponivel": true
     },
-    "assets/media/doe-e-transforme-vidas-poster.jpg": {
+    "assets/img/video-posters/doe-e-transforme-vidas-poster.jpg": {
       "url": "https://static.wixstatic.com/media/c696b8_effc98bbe8fb45f493dd18a699d1cef9f000.jpg/v1/fill/w_576,h_432,fp_0.50_0.50,q_90,enc_avif,quality_auto/c696b8_effc98bbe8fb45f493dd18a699d1cef9f000.jpg",
       "tipo": "imagem",
       "status": 206,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/doacao-cesta-aaci.jpg": {
+    "assets/img/doacao-cesta-aaci.jpg": {
       "url": "https://static.wixstatic.com/media/5d1de8_e2bcc3c9ee7242ba84c8b05ef3078085~mv2.jpg/v1/fit/w_1835,h_1218,q_90,enc_avif,quality_auto/5d1de8_e2bcc3c9ee7242ba84c8b05ef3078085~mv2.jpg",
       "tipo": "imagem",
       "status": 200,
       "content_type": "image/jpeg",
       "disponivel": true
     },
-    "assets/images/campanhas-aaci.jpg": {
+    "assets/img/campanhas-aaci.jpg": {
       "url": "https://static.wixstatic.com/media/c696b8_8bdee70e445449d5914af6f3c58976a5~mv2.jpg/v1/fill/w_951,h_375,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c696b8_8bdee70e445449d5914af6f3c58976a5~mv2.jpg",
       "tipo": "imagem",
       "status": 200,
@@ -620,7 +620,7 @@
     }
   },
   "sem_fonte_externa": [
-    "assets/hero.webp",
-    "assets/favicon.png"
+    "assets/img/banner.webp",
+    "assets/img/favicon.png"
   ]
 }

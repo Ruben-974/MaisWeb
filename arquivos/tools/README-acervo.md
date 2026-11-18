@@ -4,7 +4,7 @@ O resultado pronto está em `arquivos/mapeamento AACI/AACI-organizado`. Abra `in
 
 Os scripts utilizam Python com Pillow, lxml, PyMuPDF, ReportLab e imageio-ffmpeg. A etapa OCR usa Windows com o reconhecimento de Português (Brasil) instalado. Os caminhos da origem e do resultado estão no início de `mapear_acervo_aaci.py`.
 
-Os comandos abaixo s?o executados a partir da raiz do projeto, que cont?m `AACI/` e `arquivos/`.
+Os comandos abaixo são executados a partir da raiz do projeto, que contém `index.html`, `pages/`, `assets/` e `arquivos/`.
 
 ## Etapas do processo
 
